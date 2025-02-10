@@ -1,4 +1,5 @@
 {
+  "homepage": "https://azidahrashid.github.io/binance_feature",
   "name": "cryptozone",
   "version": "0.1.0",
   "private": true,
@@ -86,6 +87,6 @@
     "gh-pages": "^6.3.0",
     "sass": "^1.81.0"
   },
-  "homepage": "https://azidahrashid.github.io/binance_feature"
+ 
 
 }
