@@ -61,9 +61,8 @@
     "test": "react-scripts test",
     "sass": "sass --watch src/assets/scss/main.scss src/assets/css/style.css",
     "eject": "react-scripts eject",
-
-     "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -84,8 +83,8 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "sass": "^1.81.0"
   },
-  "homepage": "https://username.github.io/azidahrashid/binance_feature"
-
+  "homepage": "https://azidahrashid.github.io/binance_feature"
 }
