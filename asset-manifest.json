@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/binance_feature/static/css/main.d82edcb0.css",
+    "main.css": "/binance_feature/static/css/main.ea502d00.css",
     "main.js": "/binance_feature/static/js/main.e5de43be.js",
     "static/js/412.11b7338d.chunk.js": "/binance_feature/static/js/412.11b7338d.chunk.js",
     "static/js/341.4da32db1.chunk.js": "/binance_feature/static/js/341.4da32db1.chunk.js",
     "static/js/380.cfdf7639.chunk.js": "/binance_feature/static/js/380.cfdf7639.chunk.js",
     "static/js/453.375405cb.chunk.js": "/binance_feature/static/js/453.375405cb.chunk.js",
-    "static/media/materialdesignicons-webfont.svg?v=2.4.85": "/binance_feature/static/media/materialdesignicons-webfont.d4de1856365c39f68b72.svg",
+    "static/media/materialdesignicons-webfont.svg?v=2.4.85": "/binance_feature/static/media/materialdesignicons-webfont.6285372902a5d4634762.svg",
     "static/media/la-brands-400.svg": "/binance_feature/static/media/la-brands-400.928495fae14841a0d610.svg",
     "static/media/la-solid-900.svg": "/binance_feature/static/media/la-solid-900.a813034654b4ff0a0bac.svg",
     "static/media/Flaticon.svg": "/binance_feature/static/media/Flaticon.5b9118b487105304f2b7.svg",
@@ -15,10 +15,10 @@
     "static/media/materialdesignicons-webfont.eot": "/binance_feature/static/media/materialdesignicons-webfont.5017dab5e7a3b1872137.eot",
     "static/media/materialdesignicons-webfont.ttf?v=2.4.85": "/binance_feature/static/media/materialdesignicons-webfont.b994f21c3c1cb3ffd6bb.ttf",
     "static/media/bg6.jpg": "/binance_feature/static/media/bg6.353c6f49704fc703c32c.jpg",
-    "static/media/themify9f24.svg?-fvbane": "/binance_feature/static/media/themify9f24.f0fc8c798eac5636249c.svg",
+    "static/media/themify9f24.svg?-fvbane": "/binance_feature/static/media/themify9f24.c4292f34297f1004471a.svg",
     "static/media/la-solid-900.eot": "/binance_feature/static/media/la-solid-900.4184d740eae2fb727bfe.eot",
     "static/media/la-solid-900.ttf": "/binance_feature/static/media/la-solid-900.279f38601f1d1655255f.ttf",
-    "static/media/Simple-Line-Icons4c82.svg?-i3a2kk": "/binance_feature/static/media/Simple-Line-Icons4c82.51b9ac91d27d5ba0b73f.svg",
+    "static/media/Simple-Line-Icons4c82.svg?-i3a2kk": "/binance_feature/static/media/Simple-Line-Icons4c82.e44ce50cc5d614fac12e.svg",
     "static/media/fa-brands-400.ttf": "/binance_feature/static/media/fa-brands-400.0a1b701f5563c2288281.ttf",
     "static/media/materialdesignicons-webfont.woff?v=2.4.85": "/binance_feature/static/media/materialdesignicons-webfont.20ea693c7cf2fa077928.woff",
     "static/media/la-brands-400.eot": "/binance_feature/static/media/la-brands-400.908ce19d18187969b32f.eot",
@@ -74,7 +74,7 @@
     "static/media/lg.ttf?io9a6k": "/binance_feature/static/media/lg.747d038541bfc6bb8ea9.ttf",
     "static/media/lg.woff2?io9a6k": "/binance_feature/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/binance_feature/index.html",
-    "main.d82edcb0.css.map": "/binance_feature/static/css/main.d82edcb0.css.map",
+    "main.ea502d00.css.map": "/binance_feature/static/css/main.ea502d00.css.map",
     "main.e5de43be.js.map": "/binance_feature/static/js/main.e5de43be.js.map",
     "412.11b7338d.chunk.js.map": "/binance_feature/static/js/412.11b7338d.chunk.js.map",
     "341.4da32db1.chunk.js.map": "/binance_feature/static/js/341.4da32db1.chunk.js.map",
@@ -82,7 +82,7 @@
     "453.375405cb.chunk.js.map": "/binance_feature/static/js/453.375405cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d82edcb0.css",
+    "static/css/main.ea502d00.css",
     "static/js/main.e5de43be.js"
   ]
 }
