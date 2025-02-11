@@ -228,6 +228,10 @@
 [data-theme-version=dark][data-primary=color_2] .dz-social-icon li .linkdz{}
 [data-theme-version=light][data-primary=color_2] .dz-social-icon li .linkdz{color:black}
 
+[data-theme-version=light][data-primary=color_2] .order.nav-tabs .nav-link:active, [data-theme-version=dark][data-primary=color_2] .order.nav-tabs .nav-link:active {
+    background-color: transparent;
+}
+
 [data-primary=color_2] .custom-dropdown .btn.tp-btn.btn-primary ,
 [data-primary=color_2] .custom-dropdown .btn.tp-btn.btn-primary:hover {
     background-color: transparent;
