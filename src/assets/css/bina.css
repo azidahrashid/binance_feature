@@ -225,6 +225,9 @@
 [data-theme-version=light][data-primary=color_2] .bn-tab.active {color: #000;}
 
 
+[data-theme-version=dark][data-primary=color_2] .dz-social-icon li .linkdz{}
+[data-theme-version=light][data-primary=color_2] .dz-social-icon li .linkdz{color:black}
+
 [data-primary=color_2] .custom-dropdown .btn.tp-btn.btn-primary ,
 [data-primary=color_2] .custom-dropdown .btn.tp-btn.btn-primary:hover {
     background-color: transparent;
