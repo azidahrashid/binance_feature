@@ -175,7 +175,13 @@
 
 }
 
-
+.order-row span{
+    z-index: 1;
+    position: relative;
+}
+.orderbook-ask .table.shadow-hover tbody tr:hover {
+    --rgba-primary-2: #ff00001c;
+}
 [data-theme-version=dark][data-primary=color_2] .dataTables_wrapper .dataTables_paginate .paginate_button.previous.current:hover,
 [data-theme-version=dark][data-primary=color_2] .dataTables_wrapper .dataTables_paginate .paginate_button.previous.previous:hover,
 [data-theme-version=dark][data-primary=color_2] .dataTables_wrapper .dataTables_paginate .paginate_button.previous.next:hover,

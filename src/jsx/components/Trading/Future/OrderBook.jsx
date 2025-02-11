@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-// import {Dropdown, } from 'react-bootstrap';
 import DropDownUI from "../../bootstrap/DropDownUi";
-// import {UiDropDown} from '../../../components/bootstrap/DropDown';
-
 
 const tableData = [
   { price: "20972.43", Size: "0.0588", total: "5.8312" },
@@ -38,15 +35,20 @@ const tableData = [
   
 ];
 
-// Separate data into two groups: ask and bid
-const askData = tableData.filter((_, index) => index % 2 === 0); // Ask
-const bidData = tableData.filter((_, index) => index % 2 !== 0); // Bid
+// Separate data into Ask and Bid groups
+const askData = tableData.filter((_, index) => index % 2 === 0);
+const bidData = tableData.filter((_, index) => index % 2 !== 0);
 
 function OrderBook() {
-  const [mode, setMode] = useState("default"); // Default mode
+  const [mode, setMode] = useState("default");
+  const [selectedValue, setSelectedValue] = useState("0.1");
+
   const handleDropdownChange = (value) => {
-    // console.log("Selected value:", value);
+    setSelectedValue(value);
   };
+
+  const maxSize = Math.max(...tableData.map((item) => parseFloat(item.total)));
+
   return (
     <div className="orderbook-list tradeview-ob-container">
       <div className="orderbook-header">
@@ -70,9 +72,9 @@ function OrderBook() {
           </button>
           <button
             className="ob-type-button"
-            data-testid="buyModeButton"
-            style={{ opacity: mode === "buymode" ? 1 : 0.5 }}
-            onClick={() => setMode("buymode")}
+            data-testid="sellModeButton"
+            style={{ opacity: mode === "sellmode" ? 1 : 0.5 }}
+            onClick={() => setMode("sellmode")}
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <g>
@@ -88,9 +90,9 @@ function OrderBook() {
           </button>
           <button
             className="ob-type-button"
-            data-testid="sellModeButton"
-            style={{ opacity: mode === "sellmode" ? 1 : 0.5 }}
-            onClick={() => setMode("sellmode")}
+            data-testid="buyModeButton"
+            style={{ opacity: mode === "buymode" ? 1 : 0.5 }}
+            onClick={() => setMode("buymode")}
           >
            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                 <g>
@@ -157,7 +159,6 @@ function OrderBook() {
       </div>
      
 
-
       {/* Orderbook Ask */}
       {(mode === "default" || mode === "buymode") && (
         <div className="orderbook-ask">
@@ -171,12 +172,24 @@ function OrderBook() {
             </thead>
             <tbody>
               {askData.map((data, index) => (
-                <tr key={index}>
-                  <td>
-                    <span className="text-success">{data.price}</span>
-                  </td>
+                <tr key={index} className="order-row">
+                  <td><span className="text-danger">{data.price}</span></td>
                   <td className="t-right">{data.Size}</td>
-                  <td className="t-right">{data.total}</td>
+                  <td className="t-right" style={{ position: "relative" }}>
+                  <div
+                      className="progress-bar ask-bar border-radius-0"
+                      style={{
+                        width: `${(parseFloat(data.total) / maxSize) * 100}%`,
+                        position: "absolute",
+                        right: 0,
+                        top: 0,
+                        height: "100%",
+                        backgroundColor: "rgba(255, 0, 0, 0.05)",
+                        zIndex: 0,
+                      }}
+                    >
+                  </div>
+                    <span>{data.total}</span></td>
                 </tr>
               ))}
             </tbody>
@@ -184,34 +197,35 @@ function OrderBook() {
         </div>
       )}
 
-   
 
+
+      {/* Orderbook Ticker */}
       <div className="orderbook-ticker px-0 lg:px-[15px] with-ratio" >
-          <div className="contractPrice mr-[4px] status-green" >
-              <div className="mr-[4px]" >100029.3</div>
-              <svg className="bn-svg arrow-icon text-[16px] status-green" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{transform: 'rotate(180deg)'}}>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20.999l7.071-7.071-1.768-1.768-4.054 4.055V2.998h-2.5v13.216L6.696 12.16l-1.768 1.768 7.07 7.071H12z" fill="currentColor"></path>
-              </svg>
-          </div>
-          <div className="markPrice" >
-              <div className="bn-tooltips-wrap bn-tooltips-web text-TertiaryText hover:text-PrimaryYellow" ><div className="bn-tooltips-ele" >100028.6</div></div>
-          </div>
-          <div ></div>
-      </div>
+        <div className="contractPrice mr-[4px] status-green" >
+            <div className="mr-[4px]" >100029.3</div>
+            <svg className="bn-svg arrow-icon text-[16px] status-green" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{transform: 'rotate(180deg)'}}>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20.999l7.071-7.071-1.768-1.768-4.054 4.055V2.998h-2.5v13.216L6.696 12.16l-1.768 1.768 7.07 7.071H12z" fill="currentColor"></path>
+            </svg>
+        </div>
+        <div className="markPrice" >
+            <div className="bn-tooltips-wrap bn-tooltips-web text-TertiaryText hover:text-PrimaryYellow" ><div className="bn-tooltips-ele" >100028.6</div></div>
+        </div>
+        <div ></div>
+    </div>
 
 
-      <div className="orderbook-ticker px-0 lg:px-[15px] with-ratio" >
-          <div className="contractPrice mr-[4px] status-sell" >
-              <div className="mr-[4px]" >99797.2</div>
-              <svg className="bn-svg arrow-icon text-[16px] status-sell" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20.999l7.071-7.071-1.768-1.768-4.054 4.055V2.998h-2.5v13.216L6.696 12.16l-1.768 1.768 7.07 7.071H12z" fill="currentColor"></path>
-              </svg>
-          </div>
-          <div className="markPrice" >
-              <div className="bn-tooltips-wrap bn-tooltips-web text-TertiaryText hover:text-PrimaryYellow" ><div className="bn-tooltips-ele" >99827.7</div></div>
-          </div>
-          <div ></div>
-      </div>
+    <div className="orderbook-ticker px-0 lg:px-[15px] with-ratio" >
+        <div className="contractPrice mr-[4px] status-sell" >
+            <div className="mr-[4px]" >99797.2</div>
+            <svg className="bn-svg arrow-icon text-[16px] status-sell" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 20.999l7.071-7.071-1.768-1.768-4.054 4.055V2.998h-2.5v13.216L6.696 12.16l-1.768 1.768 7.07 7.071H12z" fill="currentColor"></path>
+            </svg>
+        </div>
+        <div className="markPrice" >
+            <div className="bn-tooltips-wrap bn-tooltips-web text-TertiaryText hover:text-PrimaryYellow" ><div className="bn-tooltips-ele" >99827.7</div></div>
+        </div>
+        <div ></div>
+    </div>
 
 
       {/* Orderbook Bid */}
@@ -227,12 +241,24 @@ function OrderBook() {
             </thead>
             <tbody>
               {bidData.map((data, index) => (
-                <tr key={index}>
-                  <td>
-                    <span className="text-danger">{data.price}</span>
-                  </td>
+                <tr key={index} className="order-row">
+                  <td><span className="text-success">{data.price}</span></td>
                   <td className="t-right">{data.Size}</td>
-                  <td className="t-right">{data.total}</td>
+                  <td className="t-right" style={{ position: "relative" }}>
+                    <div
+                      className="progress-bar bid-bar border-radius-0"
+                      style={{
+                        width: `${(parseFloat(data.total) / maxSize) * 100}%`,
+                        position: "absolute",
+                        right: 0,
+                        top: 0,
+                        height: "100%",
+                        backgroundColor: "rgba(0, 255, 0, 0.05)",
+                        zIndex: 0,
+                      }}
+                    ></div>
+                    <span>{data.total}</span>
+                    </td>
                 </tr>
               ))}
             </tbody>
@@ -241,7 +267,7 @@ function OrderBook() {
       )}
 
 
-      <div className="orderbook-compare pt-[4px] pr-[8px] md:px-0 lg:px-[16px]" >
+<div className="orderbook-compare pt-[4px] pr-[8px] md:px-0 lg:px-[16px]" >
           <div className="compare-direction" >
               <div >매수</div>
               <div className="compare-percent-buy mx-1" >45.49%</div>
@@ -255,6 +281,7 @@ function OrderBook() {
               <div >매도</div>
           </div>
       </div>
+
 
     </div>
   );
