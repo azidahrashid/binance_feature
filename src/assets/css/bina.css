@@ -3761,6 +3761,10 @@ left: 0;
     background-color: #2B3139;
     border-color: #2B3139;
     color: #fff;
+
+    background-color: var(--color-DisableBtn);
+    color: var(--color-PrimaryText);
+    border-color: var(--color-DisableBtn);
 }
 
 .table-btn-more svg {height: 18px;}
@@ -3836,10 +3840,13 @@ left: 0;
 @media only screen and (min-width: 1441px) and (max-width: 1705px) {
     .future_main_section {
         width: 54%;
+        flex: 0 0 54%;
     }
 
     .future_trade_section, .future_orderbook_section {
         width: 23%;
+        flex:0 0 23%;
+        max-width: 23%;
     }
     [data-sidebar-style=mini] .content-body {
         margin-left: 0rem;
