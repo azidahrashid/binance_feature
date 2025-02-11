@@ -4076,6 +4076,12 @@ left: 0;
     .ticker-market-list.list-wrapper{
         justify-content: flex-start !important;
     }
+    .order.nav-tabs {
+        flex-wrap: nowrap;
+        word-break: keep-all;
+        white-space: nowrap;
+        overflow: auto;
+    }
 
 }
 
