@@ -192,12 +192,12 @@
 [data-theme-version=light][data-primary=color_2] .dataTables_wrapper .dataTables_paginate .paginate_button.next.current:hover,
 [data-theme-version=light][data-primary=color_2] .dataTables_wrapper .dataTables_paginate .paginate_button.next.previous:hover,
 [data-theme-version=light][data-primary=color_2] .dataTables_wrapper .dataTables_paginate .paginate_button.next.next:hover {
-    background:#ccc !important;
+    background:#f3f3f3  !important;
 }
 
 [data-theme-version=light][data-primary=color_2] .dataTables_wrapper .dataTables_paginate .paginate_button.previous,
  [data-theme-version=light][data-primary=color_2] .dataTables_wrapper .dataTables_paginate .paginate_button.next {
-    --color-Vessel:#181A20 !important
+    --color-Vessel:#bdbdbd  !important
  }
 
 
