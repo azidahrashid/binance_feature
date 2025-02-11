@@ -3179,6 +3179,23 @@ border-color:var(--color-PrimaryYellow)
     width: 90%;
   }
 
+  @media only screen and (max-width:1500px) {
+
+    .modal-size-small {
+        width: 400px;
+      }
+      .modal-size-medium {
+        width: 700px;
+      }
+      .modal-size-large {
+        width: 900px;
+      }
+      .modal-size-extra-large {
+        width: 90%;
+      }
+
+
+  }
 
 @media only screen and (max-width:768px) {
     .modal-size-small ,
