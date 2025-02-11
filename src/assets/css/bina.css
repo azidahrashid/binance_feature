@@ -261,6 +261,15 @@
 [data-theme-version=dark][data-primary=color_2] .bn-tab {color:  var(--color-TertiaryText);}
 [data-theme-version=light][data-primary=color_2] .bn-tab {color:  var(--color-TertiaryText);}
 
+[data-theme-version=dark][data-primary=color_2] .order.nav-tabs .nav-link{color:  var(--color-TertiaryText);    font-weight: 700;}
+[data-theme-version=light][data-primary=color_2] .order.nav-tabs .nav-link{color:  var(--color-TertiaryText);     font-weight: 700;}
+
+
+[data-theme-version=dark][data-primary=color_2] .order.nav-tabs .nav-link.active{color: #fff;}
+[data-theme-version=light][data-primary=color_2] .order.nav-tabs .nav-link.active{color:  #000;}
+
+
+
 [data-theme-version=dark][data-primary=color_2] .bn-tab.active {color: #fff;}
 [data-theme-version=light][data-primary=color_2] .bn-tab.active {color: #000;}
 
