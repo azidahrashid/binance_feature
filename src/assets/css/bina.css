@@ -201,8 +201,8 @@
  }
 
 
- [data-primary=color_2] .btn-primary:focus, [data-primary=color_2] .btn-primary.btn-login:hover,
-  [data-theme-version=dark][data-primary=color_2] .modal_comfirmbtn_footer .btn-primary.btn-login:active {
+[data-primary=color_2] .btn-primary.btn-login:focus, [data-primary=color_2] .btn-primary.btn-login:hover, [data-primary=color_2] .btn-primary.btn-login:active,
+[data-theme-version=dark][data-primary=color_2] .modal_comfirmbtn_footer .btn-primary.btn-login:active {
     background-color: var(--button-bg);
     border-color: var(--button-bg);
     opacity: .8;
