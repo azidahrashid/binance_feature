@@ -3918,7 +3918,9 @@ left: 0;
 }
 
 .leverage_title .btn-dark {
-    background-color: var(--color-bg4);
+    background-color: var(--color-DisableBtn);
+    color: var(--color-DisabledText);
+    border-color: var(--color-DisableBtn);
 }
 
 .menuZone {
