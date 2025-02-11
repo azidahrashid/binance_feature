@@ -42387,6 +42387,7 @@ html[dir=rtl] [direction=rtl][data-sidebar-style=compact]:not([data-layout=horiz
 }
 [data-theme-version=dark][data-primary=color_2] .header-menu-layout {--header-bg:#181A20}
 [data-theme-version=light][data-primary=color_2]  .header-menu-layout {--header-bg:#f0f0f0}
+[data-primary=color_2] .header-menu-layout button:hover  {opacity:0.8;--rgba-primary-1:var(--header-bg)} 
 /* Toggle Icons */
 .header-menu-layout .bn-svg {
   width: 24px;
