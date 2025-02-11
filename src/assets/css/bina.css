@@ -3939,7 +3939,7 @@ left: 0;
 
 
 
-@media only screen and (min-width:1351px) {
+@media only screen and (min-width:1025px) {
     
     .ticker-market-list.d-flex.align-items-center.justify-content-between.gap-3.list-wrapper {display: flex;}
     .list-wrapper .t-headline-wrapper, .list-wrapper .t-subheadline-wrapper{ align-items: center;        gap: 17px;}
@@ -3953,7 +3953,8 @@ left: 0;
      
     }
 }
-@media only screen and (max-width:1350px) {
+
+@media only screen and (max-width:1024px) {
     .header-right {
         display: none;
     }
@@ -4094,6 +4095,14 @@ left: 0;
         white-space: nowrap;
         overflow: auto;
         overflow-y: hidden;
+    }
+
+
+    .modal-size-small ,
+    .modal-size-medium ,
+    .modal-size-large ,
+    .modal-size-extra-large {
+      width:70%
     }
 
 }

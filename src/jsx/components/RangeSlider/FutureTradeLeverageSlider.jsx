@@ -27,7 +27,7 @@ const FutureTradeLeverageSlider = () => {
       <div className={`input-group mb-2 ${isFocused ? "input-group-focus" : ""}`}>
         <input
           step="0.001"
-          className="bn-textField-input form-control border-end-0"
+          className="bn-textField-input form-control"
           type="text"
           spellCheck="false"
           autoComplete="off"
