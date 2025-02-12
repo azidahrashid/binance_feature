@@ -58,11 +58,11 @@ const LimitTab = () => {
 
                     <div className="d-flex justify-content-between flex-wrap">
                         <div className="d-flex">
-                            <div className="text-muted">Buy</div>
+                            <div className="text-muted">매수</div>
                             <div className="text-black px-1"> 0.00 USDT</div>
                         </div>
                         <div className="d-flex">
-                            <div className="text-muted">Sell</div>
+                            <div className="text-muted">매도</div>
                             <div className="text-black px-1"> 0.00 USDT </div>
                         </div>
                     </div>
@@ -155,10 +155,10 @@ const LimitTab = () => {
 
                     <div className="mt-3 d-flex justify-content-between gap-2">
                         <Link to={"#"} className="btn btn-success py-2 text-uppercase flex-grow-1">
-                            BUY
+                            매수
                         </Link>
                         <Link to={"#"} className="btn btn-danger py-2 text-uppercase flex-grow-1">
-                            Sell
+                            매도
                         </Link>
                     </div>
                 </form>

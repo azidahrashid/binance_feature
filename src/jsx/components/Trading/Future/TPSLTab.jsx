@@ -98,10 +98,10 @@ const TPSLTab = () => {
 
                     <div className="mt-3 d-flex justify-content-between gap-2">
                         <Link to={"#"} className="btn btn-success py-2 text-uppercase flex-grow-1">
-                            BUY
+                             매수
                         </Link>
                         <Link to={"#"} className="btn btn-danger py-2 text-uppercase flex-grow-1">
-                            Sell
+                             매도
                         </Link>
                     </div>
                 </form>
