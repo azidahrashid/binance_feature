@@ -213,7 +213,7 @@ function OrderBook() {
         <div ></div>
     </div>
 
-
+  {/*     
     <div className="orderbook-ticker px-0 lg:px-[15px] with-ratio" >
         <div className="contractPrice mr-[4px] status-sell" >
             <div className="mr-[4px]" >99797.2</div>
@@ -225,7 +225,7 @@ function OrderBook() {
             <div className="bn-tooltips-wrap bn-tooltips-web text-TertiaryText hover:text-PrimaryYellow" ><div className="bn-tooltips-ele" >99827.7</div></div>
         </div>
         <div ></div>
-    </div>
+    </div> */}
 
 
       {/* Orderbook Bid */}
@@ -269,7 +269,7 @@ function OrderBook() {
 
 <div className="orderbook-compare pt-[4px] pr-[8px] md:px-0 lg:px-[16px]" >
           <div className="compare-direction" >
-              <div >매수</div>
+              <div >매수 : B</div>
               <div className="compare-percent-buy mx-1" >45.49%</div>
           </div>
           <div className="compare-bar" >
@@ -278,7 +278,7 @@ function OrderBook() {
           </div>
           <div className="compare-direction" >
               <div className="compare-percent-sellmx-1" >54.51%</div>
-              <div >매도</div>
+              <div >매도 : S</div>
           </div>
       </div>
 

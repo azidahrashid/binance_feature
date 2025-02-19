@@ -174,7 +174,7 @@
     --color-BadgeBg: rgba(240, 185, 11, 0.1);
 
 }
-
+.dropdown-toggle:after{display:none;}
 .order-row span{
     z-index: 1;
     position: relative;
@@ -4277,3 +4277,5 @@ left: 0;
 
 
 }
+
+
