@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/binance_feature/static/css/main.855de9b9.css",
-    "main.js": "/binance_feature/static/js/main.10f1d411.js",
+    "main.css": "/binance_feature/static/css/main.9980a392.css",
+    "main.js": "/binance_feature/static/js/main.aa7ec1e8.js",
     "static/js/412.86eccdd9.chunk.js": "/binance_feature/static/js/412.86eccdd9.chunk.js",
     "static/js/341.9c26cfd0.chunk.js": "/binance_feature/static/js/341.9c26cfd0.chunk.js",
-    "static/js/380.6b731369.chunk.js": "/binance_feature/static/js/380.6b731369.chunk.js",
+    "static/js/350.7c0567eb.chunk.js": "/binance_feature/static/js/350.7c0567eb.chunk.js",
     "static/js/453.6757b169.chunk.js": "/binance_feature/static/js/453.6757b169.chunk.js",
     "static/media/materialdesignicons-webfont.svg?v=2.4.85": "/binance_feature/static/media/materialdesignicons-webfont.6285372902a5d4634762.svg",
     "static/media/la-brands-400.svg": "/binance_feature/static/media/la-brands-400.928495fae14841a0d610.svg",
@@ -74,15 +74,15 @@
     "static/media/lg.ttf?io9a6k": "/binance_feature/static/media/lg.747d038541bfc6bb8ea9.ttf",
     "static/media/lg.woff2?io9a6k": "/binance_feature/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/binance_feature/index.html",
-    "main.855de9b9.css.map": "/binance_feature/static/css/main.855de9b9.css.map",
-    "main.10f1d411.js.map": "/binance_feature/static/js/main.10f1d411.js.map",
+    "main.9980a392.css.map": "/binance_feature/static/css/main.9980a392.css.map",
+    "main.aa7ec1e8.js.map": "/binance_feature/static/js/main.aa7ec1e8.js.map",
     "412.86eccdd9.chunk.js.map": "/binance_feature/static/js/412.86eccdd9.chunk.js.map",
     "341.9c26cfd0.chunk.js.map": "/binance_feature/static/js/341.9c26cfd0.chunk.js.map",
-    "380.6b731369.chunk.js.map": "/binance_feature/static/js/380.6b731369.chunk.js.map",
+    "350.7c0567eb.chunk.js.map": "/binance_feature/static/js/350.7c0567eb.chunk.js.map",
     "453.6757b169.chunk.js.map": "/binance_feature/static/js/453.6757b169.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.855de9b9.css",
-    "static/js/main.10f1d411.js"
+    "static/css/main.9980a392.css",
+    "static/js/main.aa7ec1e8.js"
   ]
 }
