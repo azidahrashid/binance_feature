@@ -2450,6 +2450,12 @@ border-color:var(--color-PrimaryYellow)
     font-weight: 500;
     line-height: 24px
 }
+@media only screen and (min-width:2000px) {
+    .future_main_section, .future_orderbook_section, .future_trade_section {
+        max-height: auto;
+        overflow: auto;
+    }
+}
 @media only screen and (min-width:1920px) {
     .future_main_section, .future_orderbook_section, .future_trade_section {
         max-height: 521px;
