@@ -4003,7 +4003,7 @@ left: 0;
     
     .future_trade_section.fixed-tradebar.open .card {
         position: fixed;
-        bottom: 35px;
+        bottom: 0;
         height: auto;
         z-index: 9999;
         left: 0;

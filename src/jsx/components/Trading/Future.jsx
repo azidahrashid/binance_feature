@@ -145,7 +145,11 @@ const Future = () =>{
                 <div className={`col-xxl-2 future_trade_section fixed-tradebar ${istradebarOpen ? "open" : "closed"}`}>
 
                     <button className="tradebar-toggle-btn mx-1" onClick={() => settradebarOpen(!istradebarOpen)}>
-                        {istradebarOpen ? "" : ""} 주문<BadgeDollarSign size={11}/>
+                        {istradebarOpen ? "" : ""} 
+                        <div className=" d-flex justify-content-between gap-2" >
+                            <a className="btn btn-success py-3 text-uppercase flex-grow-1" href="#/">매수</a>
+                            <a className="btn btn-danger py-3 text-uppercase flex-grow-1" href="#/">매도</a>
+                        </div>
                     </button>
                     
                     <div className={`card ${istradebarOpen ? "open" : "closed"}`}>
