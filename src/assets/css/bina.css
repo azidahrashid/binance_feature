@@ -2459,8 +2459,8 @@ border-color:var(--color-PrimaryYellow)
 }
 @media only screen and (min-width:2000px) {
     .future_main_section, .future_orderbook_section, .future_trade_section {
-        max-height: auto;
-        overflow: auto;
+        max-height: unset;
+        overflow: unset;
     }
 }
 @media only screen and (min-width: 768px) {

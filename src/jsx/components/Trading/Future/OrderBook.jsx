@@ -251,7 +251,7 @@ function OrderBook() {
               <div className="compare-asks-bar"  style={{width: '54.51%'}}></div>
           </div>
           <div className="compare-direction" >
-              <div className="compare-percent-sellmx-1" >54.51%</div>
+              <div className="compare-percent-sell mx-1" >54.51%</div>
               <div >매도 : S</div>
           </div>
       </div>
