@@ -7,12 +7,6 @@ const tableData = [
   { price: "16572.43", Size: "0.0488", total: "7.8312" },
   { price: "20972.43", Size: "0.0114", total: "8.1212" },
   { price: "19972.43", Size: "0.0216", total: "6.9852" },
-  { price: "20972.43", Size: "0.0325", total: "3.1232" },
-  { price: "19972.43", Size: "0.0434", total: "4.8122" },
-  { price: "20972.43", Size: "0.0543", total: "5.6542" },
- 
-
-  
 ];
 
 // Separate data into Ask and Bid groups
