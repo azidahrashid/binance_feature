@@ -3923,7 +3923,7 @@ left: 0;
     .leverage_title {border-bottom:0;}
 }
 
-@media only screen and (min-width: 1441px) and (max-width: 1705px) {
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
     .future_main_section {
         width: 54%;
         flex: 0 0 54%;
