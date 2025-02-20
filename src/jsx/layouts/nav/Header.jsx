@@ -190,7 +190,7 @@ const Header = ({ onNote }) => {
 								XRPUSDT
 							</div>
 							<span className="badge-dark light badge badge-xs badgexs_title mx-1">Perp</span>
-							<svg className="bn-svg text-IconNormal fs-16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.5 8.49v2.25L12 15.51l-4.5-4.77V8.49h9z" fill="currentColor"></path></svg>
+							{/* <svg className="bn-svg text-IconNormal fs-16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.5 8.49v2.25L12 15.51l-4.5-4.77V8.49h9z" fill="currentColor"></path></svg> */}
 							<div className="d-flex align-items-center cursor-pointer indexBookletIcon" >
 								<div className="bn-tooltips-wrap bn-tooltips-web max-w-full cursor-help" >
 									<div className="bn-tooltips-ele" >
@@ -214,10 +214,10 @@ const Header = ({ onNote }) => {
 								)}
 								<div className="ticker-market-list d-flex align-items-center justify-content-between gap-3 list-wrapper" ref={listWrapperRef} onScroll={handleScroll}>
 									<div className="t-headline-wrapper">
-										<div className="t-headline1 relative-ticker box-el">
+										{/* <div className="t-headline1 relative-ticker box-el">
 											<span className="fs-16 text-Sell text-headline1">3.0968</span>
 											<p className="mb-0 fs-12 text-Sell"><span className="me-2">-0.0617-2.02</span></p>
-										</div>
+										</div> */}
 										<div className="t-headline1 relative-ticker box-el">
 											<span className="fs-16 text-Buy text-headline1">96,789.1</span>
 											<p className="mb-0 fs-12 text-Buy"><span className="me-2">-0.0582-2.03</span></p>

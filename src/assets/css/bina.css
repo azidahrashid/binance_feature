@@ -4215,6 +4215,12 @@ left: 0;
         flex-direction: column;
      
     }
+
+
+    .list-wrapper .t-headline-wrapper, .list-wrapper .t-headline1, .list-wrapper .t-subheadline-wrapper {
+        text-align: center;
+    }
+
 }
 @media only screen and (max-width:980px) {
 
