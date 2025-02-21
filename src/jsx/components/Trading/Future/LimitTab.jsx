@@ -49,7 +49,7 @@ const LimitTab = () => {
                                     options={["USDT", "BTC"]}
                                     placeholder="현재가"
                                     onValueChange={handleDropdownChange}
-                                    value={selectedCurrency} 
+                                    
                                 />
                             </span>
                         </div>
