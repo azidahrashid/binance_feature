@@ -191,13 +191,13 @@ const Header = ({ onNote }) => {
 							</div>
 							<span className="badge-dark light badge badge-xs badgexs_title mx-1">Perp</span>
 							{/* <svg className="bn-svg text-IconNormal fs-16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.5 8.49v2.25L12 15.51l-4.5-4.77V8.49h9z" fill="currentColor"></path></svg> */}
-							<div className="d-flex align-items-center cursor-pointer indexBookletIcon" >
+							{/* <div className="d-flex align-items-center cursor-pointer indexBookletIcon" >
 								<div className="bn-tooltips-wrap bn-tooltips-web max-w-full cursor-help" >
 									<div className="bn-tooltips-ele" >
 										<svg className="bn-svg hover:text-PrimaryText text-IconNormal mx-3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11 8.2a4 4 0 00-4-4H3v14h5.16c1.193 0 2.243.635 2.86 1.6h1.96c.617-.965 1.668-1.6 2.86-1.6H21v-14h-4a4 4 0 00-4 4v8h-2v-8z" fill="currentColor"></path></svg>
 									</div>
 								</div>
-							</div>
+							</div> */}
 
 							<div className="header-subleft mx-3 default-market-list-container list-container">
 								<div className="larr morearrow hidearr">
