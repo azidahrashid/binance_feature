@@ -4,7 +4,9 @@ import FutureTradeRangeSlider from "../../RangeSlider/FutureTradeRangeSlider";
 import DropDownUI from "../../bootstrap/DropDownUi";
 
 const LimitTab = () => {
-    const handleDropdownChange = (value) => {};
+    const handleDropdownChange = (value) => {
+        setSelectedCurrency(value);
+    };
 
     const [focusedInput, setFocusedInput] = useState(null);
     const handleInputFocus = (id) => {
@@ -22,9 +24,7 @@ const LimitTab = () => {
 
     const [selectedCurrency, setSelectedCurrency] = useState("USDT"); // Default value
 
-    const handleDropdownChange = (newValue) => {
-        setSelectedCurrency(newValue);
-    };
+
 
     return (
         <>
