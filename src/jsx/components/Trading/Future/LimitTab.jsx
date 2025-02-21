@@ -44,10 +44,10 @@ const LimitTab = () => {
                                 onFocus={() => handleInputFocus(inputId)}
                                 onBlur={handleInputBlur}
                             />
-                            <span className="btn-cur left-radius input-group-text fw-light  border-start-0">
+                            <span className="btn-cur left-radius input-group-text fw-light  border-start-0 textColored">
                                 <DropDownUI
                                     options={["USDT", "BTC"]}
-                                    placeholder="USDT"
+                                    placeholder="현재가"
                                     onValueChange={handleDropdownChange}
                                 />
                             </span>
@@ -98,7 +98,7 @@ const LimitTab = () => {
                                     onFocus={() => handleInputFocus(`${inputId}-tp`)}
                                     onBlur={handleInputBlur}
                                 />
-                                <span className="btn-cur left-radius input-group-text fw-light  border-start-0">
+                                <span className="btn-cur left-radius input-group-text fw-light  border-start-0 textColored">
                                     <DropDownUI
                                         options={["Mark", "Last"]}
                                         placeholder="Mark"

@@ -47,7 +47,7 @@ const FutureTradeRangeSlider = () => {
                         <div className="btn-cur left-radius input-group-text fw-light">
                             <DropDownUI  
                             options={["USDT", "BTC"]}
-                            placeholder="USDT" 
+                            placeholder="현재가" 
                             onValueChange={handleDropdownChange}
                             />
                         </div>

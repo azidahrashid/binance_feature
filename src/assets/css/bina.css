@@ -395,18 +395,14 @@
 [dir=rtl]  .orderbook-compare .compare-percent-sell {
     margin-left: 2px
 }
-.orderbook-compare .compare-bids-bar {
-    border-radius: 2px 0 0 2px;
-    margin-right: 2px
-}
+
+
 .orderbook-compare .compare-bids-bar {
     border-radius: 0 2px 2px 0;
-    margin-left: 2px
-}
-.orderbook-compare .compare-bids-bar {
+    margin-left: 2px;
     align-items: center;
     background-color: var(--color-Buy);
-    height: 4px
+    height: 12px;
 }
 .orderbook-compare .compare-bar {
     align-items: center;
@@ -4329,3 +4325,10 @@ left: 0;
 
 
 
+.input-group .textColored:hover {
+    border: 1px solid yellow;
+}
+
+.input-group .textColored .text-black {
+    color: #ffcc00 !important;!i;!;
+}

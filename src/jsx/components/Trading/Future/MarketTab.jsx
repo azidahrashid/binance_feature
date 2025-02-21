@@ -20,6 +20,12 @@ const LimitTab = () => {
         setIsChecked(event.target.checked);
     };
 
+    const [selectedCurrency, setSelectedCurrency] = useState("USDT"); // Default value
+
+    const handleDropdownChange = (newValue) => {
+        setSelectedCurrency(newValue);
+    };
+
     return (
         <>
             {[
@@ -30,7 +36,7 @@ const LimitTab = () => {
                     <div className="d-flex align-items-start justify-content-center mt-3 mb-1 flex-column">
                         <div className="d-flex justify-content-start gap-1">
                             <span className="small text-muted">Avbl -</span>
-                            <span className="small t-Caption2 text-black cursor-pointer">USDT</span>
+                            <span className="small t-Caption2 text-black cursor-pointer">{selectedCurrency}</span>
                         </div>
                         <div
                             className={`input-group mb-2 ${
@@ -44,10 +50,10 @@ const LimitTab = () => {
                                 onFocus={() => handleInputFocus(inputId)}
                                 onBlur={handleInputBlur}
                             />
-                            <span className="btn-cur left-radius input-group-text fw-light  border-start-0">
+                            <span className="btn-cur left-radius input-group-text fw-light  border-start-0 textColored">
                                 <DropDownUI
                                     options={["USDT", "BTC"]}
-                                    placeholder="USDT"
+                                    placeholder="현재가"
                                     onValueChange={handleDropdownChange}
                                 />
                             </span>
@@ -98,7 +104,7 @@ const LimitTab = () => {
                                     onFocus={() => handleInputFocus(`${inputId}-tp`)}
                                     onBlur={handleInputBlur}
                                 />
-                                <span className="btn-cur left-radius input-group-text fw-light  border-start-0">
+                                <span className="btn-cur left-radius input-group-text fw-light  border-start-0 textColored">
                                     <DropDownUI
                                         options={["Mark", "Last"]}
                                         placeholder="Mark"
@@ -122,7 +128,7 @@ const LimitTab = () => {
                                     onFocus={() => handleInputFocus(`${inputId}-sl`)}
                                     onBlur={handleInputBlur}
                                 />
-                                <span className="btn-cur left-radius input-group-text fw-light  border-start-0">
+                                <span className="btn-cur left-radius input-group-text fw-light  border-start-0 textColored">
                                     <DropDownUI
                                         options={["Mark", "Limit"]}
                                         placeholder="Mark"
