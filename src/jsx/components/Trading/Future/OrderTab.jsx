@@ -113,7 +113,7 @@ const OpenOrdersTab = () =>{
                         <tbody>
                                 
                              <tr className="">
-                                <td className=""><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-0">Perp</span></span><span className="symbol_item"><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-0"></span></span></div></div></td>
+                                <td className=""><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-5">Perp</span></span><span className="symbol_item"><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-5"></span></span></div></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start size_item_wrap"><span className="DateTimeWrap size_item"> <span className="dataDate">2025-01-14 </span><span className="dataTime">15:23:21</span></span></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start "><span className=" TypeOrder_item text-black">시장가</span></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start "><span className=" TypeOrder_item text-Buy">매수</span></div></td>
@@ -124,7 +124,7 @@ const OpenOrdersTab = () =>{
                                 <td><div className="d-flex justify-content-between gap-2 flex-row"><span className="badge tp-badge-success badge-lg">채결</span></div></td>
                             </tr>
                             <tr className="">
-                                <td className=""><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-0">Perp</span><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-0">20x</span><span class="badge-green badge badge-xs badgexs_title mx-1 border-radius-0">Long</span></span><span className="symbol_item"></span></div></div></td>
+                                <td className=""><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-5">Perp</span><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-5">20x</span><span class="badge-green badge badge-xs badgexs_title mx-1 border-radius-5">Long</span></span><span className="symbol_item"></span></div></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start size_item_wrap"><span className="DateTimeWrap size_item"> <span className="dataDate">2025-01-14 </span><span className="dataTime">15:23:21</span></span></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start "><span className=" TypeOrder_item text-black text-TypeOrder_item-TP">TP</span></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start "><span className=" TypeOrder_item text-Buy">매수</span></div></td>
@@ -135,7 +135,7 @@ const OpenOrdersTab = () =>{
                                 <td><div className="d-flex justify-content-between gap-2 flex-row"><span className="badge tp-badge-cancel badge-lg">취소</span></div></td>
                             </tr>
                             <tr className="">
-                                <td className=""><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-0">Perp</span></span><span className="symbol_item"><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-0">20x</span></span></div></div></td>
+                                <td className=""><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-5">Perp</span></span><span className="symbol_item"><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-5">20x</span></span></div></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start size_item_wrap"><span className="DateTimeWrap size_item"> <span className="dataDate">2025-01-14 </span><span className="dataTime">15:23:21</span></span></div></td>      
                                 <td><div className="d-flex align-items-center justify-content-start "><span className=" TypeOrder_item text-black">지정가</span></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start "><span className=" TypeOrder_item text-Sell">매도</span></div></td>
@@ -145,7 +145,7 @@ const OpenOrdersTab = () =>{
                                 <td style={{width:'250px'}}><div className="d-flex justify-content-between gap-2 flex-row"><span className="badge tp-badge-success badge-lg">채결</span></div></td>
                             </tr>
                             <tr className="">
-                                <td className=""><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-0">Perp</span><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-0">20x</span><span class="badge-red badge badge-xs badgexs_title mx-1 border-radius-0">Short</span></span><span className="symbol_item"></span></div></div></td>
+                                <td className=""><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-5">Perp</span><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-5">20x</span><span class="badge-red badge badge-xs badgexs_title mx-1 border-radius-5">Short</span></span><span className="symbol_item"></span></div></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start size_item_wrap"><span className="DateTimeWrap size_item"> <span className="dataDate">2025-01-14 </span><span className="dataTime">15:23:21</span></span></div></td>      
                                 <td><div className="d-flex align-items-center justify-content-start "><span className=" TypeOrder_item text-black text-TypeOrder_item-SL">SL</span></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start "><span className=" TypeOrder_item text-Sell">매도</span></div></td>
@@ -159,7 +159,7 @@ const OpenOrdersTab = () =>{
                                                     
                         </tbody>
                     </table>
-                    <div className="d-sm-flex text-center justify-content-between align-items-center mt-3 mb-3">
+                    {/* <div className="d-sm-flex text-center justify-content-between align-items-center mt-3 mb-3">
                         <div className="dataTables_info">
                             Showing {activePag.current * sort + 1} to{" "}
                             {data.length > (activePag.current + 1) * sort
@@ -207,7 +207,7 @@ const OpenOrdersTab = () =>{
                                 <i className="fa fa-angle-double-right" ></i>
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>                                                
             </div>
            

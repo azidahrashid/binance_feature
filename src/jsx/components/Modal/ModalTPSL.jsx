@@ -27,7 +27,7 @@ const ModalTPSL = () => {
      
  
       
-      <button type="button" className="plus_icon btn table-btn-more  height20 px-3 py-1" onClick={openModal}><Plus size={20}/></button>
+      <button type="button" className="plus_icon btn table-btn-more  height20 px-3 " onClick={openModal}><Plus size={14}/></button>
 
       <Modal 
          isOpen={isOpen}

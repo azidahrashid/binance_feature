@@ -76,7 +76,7 @@ const TransactionTab = () =>{
                             ))}                                                        
                         </tbody>
                     </table>
-                    <div className="d-sm-flex text-center justify-content-between align-items-center mt-3 mb-3">
+                    {/* <div className="d-sm-flex text-center justify-content-between align-items-center mt-3 mb-3">
                         <div className="dataTables_info">
                             Showing {activePag.current * sort + 1} to{" "}
                             {data.length > (activePag.current + 1) * sort
@@ -124,7 +124,7 @@ const TransactionTab = () =>{
                                 <i className="fa fa-angle-double-right" ></i>
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>                                                
             </div>
         </>

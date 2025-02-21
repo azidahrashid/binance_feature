@@ -3852,7 +3852,10 @@ left: 0;
     color: var(--color-PrimaryText);
     border-color: var(--color-DisableBtn);
 }
-
+.table-btn-more {
+    line-height: normal;
+    padding: 0;
+}
 .table-btn-more svg {height: 18px;}
 .dataTables_wrapper .sort_date input[type=text]{color: inherit;}
 
@@ -4361,16 +4364,16 @@ left: 0;
 
 .thead-dataTables {
     display: flex;
-    background: #f5f5f5;
+    /* background: #f5f5f5; */
     font-weight: bold;
-    border-bottom: 2px solid #ddd;
+    /* border-bottom: 2px solid #ddd; */
 }
 
 .th-dataTables {
     flex: 1;
     padding: 10px;
     text-align: left;
-    border-right: 1px solid #ddd;
+    /* border-right: 1px solid #ddd; */
     display: flex;
     align-items: center;
     --bs-table-bg: transparent !important;
@@ -4435,4 +4438,9 @@ left: 0;
         border-right: none;
         text-align: left;
     }
+}
+
+
+.border-radius-5 {
+    border-radius: 5px;
 }

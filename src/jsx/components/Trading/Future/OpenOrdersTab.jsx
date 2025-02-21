@@ -67,7 +67,7 @@ const OpenOrdersTab = () =>{
                        
                              <tr className="">
                                 <td><div className="d-flex align-items-center justify-content-start size_item_wrap"><span className="DateTimeWrap size_item"> <span className="dataDate">2025-01-14 </span><span className="dataTime">15:23:21</span></span></div></td>      
-                                <td className=""><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-0">Perp</span></span><span className="symbol_item"><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-0"></span></span></div></div></td>
+                                <td className=""><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-5">Perp</span></span><span className="symbol_item"><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-5"></span></span></div></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start "><span className=" TypeOrder_item text-TakepRofitMarket">Take Profit Market</span></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start "><span className="text-black AmountOrder_item">5.5659 USDT</span></div></td>
                                 <td><div className="d-flex justify-content-start flex-column"><div className="TriggerConditions_item text-TriggerConditions">표시가</div><div className="d-flex"><span className="TriggerConditions_item text-TriggerConditions"> <ChevronRight size={12} style={{marginRight:'-3px'}}/><Equal size={12} />2.9294</span></div></div></td>
@@ -76,7 +76,7 @@ const OpenOrdersTab = () =>{
                             </tr>
                             <tr className="">
                                 <td><div className="d-flex align-items-center justify-content-start size_item_wrap"><span className="DateTimeWrap size_item"> <span className="dataDate">2025-01-14 </span><span className="dataTime">15:23:21</span></span></div></td>      
-                                <td className=""><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-0">Perp</span></span><span className="symbol_item"><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-0">20x</span></span></div></div></td>
+                                <td className=""><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-5">Perp</span></span><span className="symbol_item"><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-5">20x</span></span></div></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start "><span className=" TypeOrder_item text-StopMarket">Stop Market</span></div></td>
                                 <td><div className="d-flex align-items-center justify-content-start "><span className="text-black AmountOrder_item">5.5659 USDT</span></div></td>
                                 <td><div className="d-flex justify-content-start flex-column"><div className="TriggerConditions_item text-TriggerConditions">표시가</div><div className="d-flex"><span className="TriggerConditions_item text-TriggerConditions"> <ChevronLeft size={12} style={{marginRight:'-3px'}}/><Equal size={12} />2.3112 </span></div></div></td>
@@ -87,7 +87,7 @@ const OpenOrdersTab = () =>{
                                                     
                         </tbody>
                     </table>
-                    <div className="d-sm-flex text-center justify-content-between align-items-center mt-3 mb-3">
+                    {/* <div className="d-sm-flex text-center justify-content-between align-items-center mt-3 mb-3">
                         <div className="dataTables_info">
                             Showing {activePag.current * sort + 1} to{" "}
                             {data.length > (activePag.current + 1) * sort
@@ -135,7 +135,7 @@ const OpenOrdersTab = () =>{
                                 <i className="fa fa-angle-double-right" ></i>
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>                                                
             </div>
            
