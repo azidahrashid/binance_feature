@@ -375,7 +375,7 @@
 .orderbook-compare .compare-asks-bar {
     align-items: center;
     background-color: var(--color-Sell);
-    height: 4px
+    height: 12px
 }
 .orderbook-compare .compare-asks-bar {
     border-radius: 0 2px 2px 0

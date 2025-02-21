@@ -4,7 +4,9 @@ import FutureTradeRangeSlider from "../../RangeSlider/FutureTradeRangeSlider";
 import DropDownUI from "../../bootstrap/DropDownUi";
 
 const LimitTab = () => {
-    const handleDropdownChange = (value) => {};
+    const handleDropdownChange = (value) => {
+        setSelectedCurrency(value);
+    };
 
     const [focusedInput, setFocusedInput] = useState(null);
     const handleInputFocus = (id) => {
@@ -20,6 +22,8 @@ const LimitTab = () => {
         setIsChecked(event.target.checked);
     };
 
+    const [selectedCurrency, setSelectedCurrency] = useState("USDT"); 
+
     return (
         <>
             {[
@@ -29,8 +33,8 @@ const LimitTab = () => {
                 <form key={id}>
                     <div className="d-flex align-items-start justify-content-center mt-3 mb-1 flex-column">
                         <div className="d-flex justify-content-start gap-1">
-                            <span className="small text-muted">가격</span>
-                            {/* <span className="small t-Caption2 text-black cursor-pointer">USDT</span> */}
+                            <span className="small text-muted">가격 - </span>
+                            <span className="small t-Caption2 text-black cursor-pointer">{selectedCurrency}</span>
                         </div>
                         <div
                             className={`input-group mb-2 ${
@@ -49,6 +53,7 @@ const LimitTab = () => {
                                     options={["USDT", "BTC"]}
                                     placeholder="현재가"
                                     onValueChange={handleDropdownChange}
+                                    value={selectedCurrency} 
                                     
                                 />
                             </span>

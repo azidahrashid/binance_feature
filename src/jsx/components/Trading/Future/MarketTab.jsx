@@ -35,7 +35,7 @@ const LimitTab = () => {
                 <form key={id}>
                     <div className="d-flex align-items-start justify-content-center mt-3 mb-1 flex-column">
                         <div className="d-flex justify-content-start gap-1">
-                            <span className="small text-muted">Avbl -</span>
+                            <span className="small text-muted">가격 - </span>
                             <span className="small t-Caption2 text-black cursor-pointer">{selectedCurrency}</span>
                         </div>
                         <div
