@@ -62,7 +62,7 @@ const FutureTradeRangeSlider = () => {
                         type="range"
                         max="100"
                         min="0"
-                        step="0.001"
+                        step="1"
                         className="bn-slider w-full"
                         value={value}
                         onChange={handleSliderChange}
