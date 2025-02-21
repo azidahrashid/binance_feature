@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/binance_feature/static/css/main.17247153.css",
+    "main.css": "/binance_feature/static/css/main.34e1a12f.css",
     "main.js": "/binance_feature/static/js/main.5e19c0f2.js",
     "static/js/412.86eccdd9.chunk.js": "/binance_feature/static/js/412.86eccdd9.chunk.js",
     "static/js/341.9c26cfd0.chunk.js": "/binance_feature/static/js/341.9c26cfd0.chunk.js",
@@ -74,7 +74,7 @@
     "static/media/lg.ttf?io9a6k": "/binance_feature/static/media/lg.747d038541bfc6bb8ea9.ttf",
     "static/media/lg.woff2?io9a6k": "/binance_feature/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/binance_feature/index.html",
-    "main.17247153.css.map": "/binance_feature/static/css/main.17247153.css.map",
+    "main.34e1a12f.css.map": "/binance_feature/static/css/main.34e1a12f.css.map",
     "main.5e19c0f2.js.map": "/binance_feature/static/js/main.5e19c0f2.js.map",
     "412.86eccdd9.chunk.js.map": "/binance_feature/static/js/412.86eccdd9.chunk.js.map",
     "341.9c26cfd0.chunk.js.map": "/binance_feature/static/js/341.9c26cfd0.chunk.js.map",
@@ -82,7 +82,7 @@
     "453.6757b169.chunk.js.map": "/binance_feature/static/js/453.6757b169.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17247153.css",
+    "static/css/main.34e1a12f.css",
     "static/js/main.5e19c0f2.js"
   ]
 }
