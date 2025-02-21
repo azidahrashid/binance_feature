@@ -4343,3 +4343,10 @@ left: 0;
 .wraplist_description {
     font-size: 12px;
 }
+
+.futureTradeLeverageInput input {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

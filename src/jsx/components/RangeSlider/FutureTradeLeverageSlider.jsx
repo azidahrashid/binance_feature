@@ -53,7 +53,7 @@ const FutureTradeLeverageSlider = () => {
 
       
       {/* Slider */}
-      <div className="bn-slider-wrapper relative w-full" style={{height: '120px'}} >
+      <div className="bn-slider-wrapper relative w-full futureTradeLeverageInput" style={{height: '120px'}} >
         <input
           type="range"
           max="125"
