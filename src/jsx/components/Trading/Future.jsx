@@ -107,20 +107,20 @@ const Future = () =>{
                             </div>
 
 
-                        <Dropdown className="custom-dropdown mb-0">
+                        {/* <Dropdown className="custom-dropdown mb-0">
 
                             <Dropdown.Toggle as="div" className="btn sharp tp-btn i-false btn-primary">
                                 <svg className="bn-svg cursor-pointer text-IconNormal hover:text-TertiaryText text-[16px]" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 10h4v4h-4v-4zM17 10h4v4h-4v-4zM3 10h4v4H3v-4z" fill="currentColor"></path></svg>
                             </Dropdown.Toggle>
 
-                            <Dropdown.Menu className="dropdown-menu-end mb-0" align="end" style={{ width: '250px' }}>
+                            <Dropdown.Menu className="dropdown-menu-end mb-0" align="end" style={{ width: '250px' }}> */}
                                 {/* Header */}
-                                <div className="headerDropdown" style={{ padding: '8px 16px' }}>
+                                {/* <div className="headerDropdown" style={{ padding: '8px 16px' }}>
                                     Orderbook Preference
-                                </div>
+                                </div> */}
 
                                 {/* Items with Checkboxes */}
-                                <div style={{ maxHeight: '200px', overflowY: 'auto' }}>
+                                {/* <div style={{ maxHeight: '200px', overflowY: 'auto' }}>
                                     <div className="dropdown-item-checkbox px-3 py-2">
                                         <label className="form-check-label d-flex align-items-center">
                                             <input type="checkbox" className="form-check-input me-2" /> Show Buy/Sell Ratio
@@ -134,7 +134,7 @@ const Future = () =>{
                             
                                 </div>
                             </Dropdown.Menu>
-                        </Dropdown>
+                        </Dropdown> */}
 
                         </div>
                         <div className="card-body pt-2 pb-0">
