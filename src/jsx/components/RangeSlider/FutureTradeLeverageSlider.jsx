@@ -43,9 +43,9 @@ const FutureTradeLeverageSlider = () => {
 
             <div className="bn-slider-track bg-gray-200 h-2 rounded relative"> </div>
             <div className="d-flex gap-4 bn-slider-button-wrap justify-content-between flex-1">
-                <button onClick={() => handleStepChange(-10)} className="px-4 py-2 bg-gray-300 rounded text-black bn-slider-button"><Minus /></button>
+                <button onClick={() => handleStepChange(-1)} className="px-4 py-2 bg-gray-300 rounded text-black bn-slider-button"><Minus /></button>
                 {/* <button onClick={() => handleStepChange(20)} className="px-4 py-2 bg-blue-500 text-black rounded bn-slider-button">20배</button> */}
-                <button onClick={() => handleStepChange(10)} className="px-4 py-2 bg-gray-300 rounded text-black bn-slider-button"><Plus /></button>
+                <button onClick={() => handleStepChange(1)} className="px-4 py-2 bg-gray-300 rounded text-black bn-slider-button"><Plus /></button>
             </div>
       </div>
 
