@@ -81,10 +81,10 @@ function OrderBook() {
             </svg>
           </button>
         </div>
-        <div className="orderbook-tickSize" >
+        {/* <div className="orderbook-tickSize" >
           <div className="bn-tooltips-wrap" >
                   <div className="bn-tooltips-ele" >
-                      <div className="tick-content" >
+                      <div className="tick-content" > */}
 
                         {/* <Dropdown>
                             <Dropdown.Toggle className="btn btn-primary btn-outline-primary left-radius p-0" currentValue="10" onValueChange={handleDropdownChange} >
@@ -118,7 +118,7 @@ function OrderBook() {
                             </Dropdown.Menu>
                           </Dropdown> */}
 
-                        <DropDownUI
+                        {/* <DropDownUI
                           options={["0.1", "1", "10", "50" , "100"]}
                           placeholder="0.1" // Custom placeholder text
                           onValueChange={handleDropdownChange}
@@ -129,7 +129,7 @@ function OrderBook() {
                       <div className="bn-bubble-content"  style={{marginTop: '4px'}}></div>
                   </div>
               </div>
-          </div>
+          </div> */}
       </div>
      
 
