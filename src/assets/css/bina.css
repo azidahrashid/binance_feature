@@ -4350,3 +4350,15 @@ left: 0;
     justify-content: center;
     align-items: center;
 }
+
+.bn-slider-wrapper2 {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 98%;
+}
+
+.bn-slider-wrapper2 .bn-slider-track {
+    background: transparent;;
+}

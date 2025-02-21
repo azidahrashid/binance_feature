@@ -24,9 +24,9 @@ const FutureTradeLeverageSlider = () => {
   return (
     <div className="d-flex align-items-start justify-content-center mt-1 mb-3 flex-column flex-1">
       <span className="small text-muted m-1">레버리지 설정</span>
-      <div className={`input-group mb-2 ${isFocused ? "input-group-focus" : ""}`}>
+      <div className={`input-group mb-2 futureTradeLeverageInput ${isFocused ? "input-group-focus" : ""}`}>
         <input
-          step="0.001"
+          step="1"
           className="bn-textField-input form-control"
           type="text"
           spellCheck="false"
@@ -38,7 +38,7 @@ const FutureTradeLeverageSlider = () => {
           onBlur={() => setIsFocused(false)}
         />
 
-<div className="bn-slider-wrapper2 relative w-full" style={{height: '80px'}}>
+      <div className="bn-slider-wrapper2 relative w-full" style={{height: '80px'}}>
             {/* Buttons */}
 
             <div className="bn-slider-track bg-gray-200 h-2 rounded relative"> </div>
@@ -53,12 +53,12 @@ const FutureTradeLeverageSlider = () => {
 
       
       {/* Slider */}
-      <div className="bn-slider-wrapper relative w-full futureTradeLeverageInput" style={{height: '120px'}} >
+      <div className="bn-slider-wrapper relative w-full " style={{height: '120px'}} >
         <input
           type="range"
           max="125"
           min="0"
-          step="0.001"
+          step="1"
           className="bn-slider w-full"
           value={value}
           onChange={handleSliderChange}
