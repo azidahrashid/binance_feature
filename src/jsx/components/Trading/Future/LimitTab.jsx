@@ -73,7 +73,7 @@ const LimitTab = () => {
                     <div className="d-flex justify-content-between flex-wrap">
                         <div style={{ maxHeight: "200px", overflowY: "auto" }}>
                             <div className="check-item-checkbox py-1">
-                                <label className="form-check-label d-flex align-items-center">
+                                <label className="form-check-label d-flex align-items-center text-black fw-bold">
                                     <input
                                         type="checkbox"
                                         className="form-check-input me-2"
