@@ -29,7 +29,7 @@ const FutureTradeRangeSlider = () => {
 
   return (
     <div className="d-flex align-items-start justify-content-center mt-1 mb-3 flex-column ">       
-            <span className="small text-muted">Size</span>
+            <span className="small text-muted">수량</span>
                 <div className={`input-group mb-2 ${isFocused ? "input-group-focus" : ""}`}>
                         <input
                             step="0.001"
