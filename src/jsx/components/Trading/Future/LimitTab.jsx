@@ -14,8 +14,8 @@ const LimitTab = () => {
     // Store separate state for each dropdown
     const [selectedCurrencies, setSelectedCurrencies] = useState({
         main: "USDT",
-        tp: "Mark",
-        sl: "Mark",
+        tp: "시장가",
+        sl: "시장가",
     });
 
     const handleDropdownChange = (key, value) => {
@@ -100,8 +100,8 @@ const LimitTab = () => {
                                 />
                                 <span className="btn-cur left-radius input-group-text fw-light border-start-0 textColored">
                                     <DropDownUI
-                                        options={["Mark", "Last"]}
-                                        placeholder="Mark"
+                                        options={["시장가", "현재가"]}
+                                        placeholder="시장가"
                                         onValueChange={(value) => handleDropdownChange("tp", value)}
                                         value={selectedCurrencies.tp}
                                     />
@@ -125,8 +125,8 @@ const LimitTab = () => {
                                 />
                                 <span className="btn-cur left-radius input-group-text fw-light border-start-0 textColored">
                                     <DropDownUI
-                                        options={["Mark", "Limit"]}
-                                        placeholder="Mark"
+                                        options={["시장가", "Limit"]}
+                                        placeholder="시장가"
                                         onValueChange={(value) => handleDropdownChange("sl", value)}
                                         value={selectedCurrencies.sl}
                                     />
