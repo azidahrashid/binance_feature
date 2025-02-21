@@ -4340,3 +4340,6 @@ left: 0;
     margin-left: 0 !important;
     border-left: 1px solid #ffcc00 !important;
 }
+.wraplist_description {
+    font-size: 12px;
+}
