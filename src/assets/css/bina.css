@@ -4398,6 +4398,31 @@ left: 0;
     border-bottom: none;
 }
 
+
+/* Width Utility Classes */
+.w-1 { width: 5%; }
+.w-2 { width: 10%; }
+.w-3 { width: 15%; }
+.w-4 { width: 20%; }
+.w-5 { width: 25%; }
+.w-6 { width: 30%; }
+.w-7 { width: 35%; }
+.w-8 { width: 40%; }
+.w-9 { width: 45%; }
+.w-10 { width: 50%; }
+.w-11 { width: 55%; }
+.w-12 { width: 60%; }
+.w-13 { width: 65%; }
+.w-14 { width: 70%; }
+.w-15 { width: 75%; }
+.w-16 { width: 80%; }
+.w-17 { width: 85%; }
+.w-18 { width: 90%; }
+.w-19 { width: 95%; }
+.w-20 { width: 100%; }
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .thead-dataTables, .tr-dataTables {

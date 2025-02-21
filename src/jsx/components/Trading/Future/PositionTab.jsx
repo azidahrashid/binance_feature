@@ -4,6 +4,8 @@ import DropType from "../../bootstrap/DropType";
 import ModalTPSL from "./../../Modal/ModalTPSL";
 import {Plus, Minus} from "lucide-react" 
 
+
+
 const PositionTab = () =>{
     
     const [data, setData] = useState(
@@ -52,7 +54,7 @@ const PositionTab = () =>{
             <div className="table-responsive dataTabletrade " >
                 <div id="futurePosition_wrapper" className="dataTables_wrapper no-footer position_dataTables">
                     <div id="example" className="table display dataTable no-footer" style={{minWidth:"845px"}}>
-                        <thead>
+                        <div className="thead-dataTables">
                              <div className="th-dataTables">
                                  <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center">코인종류</div></div></div>
                                  <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center">사이즈</div></div></div>
@@ -65,8 +67,8 @@ const PositionTab = () =>{
                                  <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-closePosition flex items-center">포지션종료</div></div></div>
                                  <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center">TP/SL</div></div></div>
                             </div>
-                        </thead>
-                        <tbody>
+                        </div>
+                        <div className="tbody-dataTables">
                        
                               <div className="tr-dataTables tdGreen">
                                  <div className="td-dataTables line_tag"><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-0">Perp</span></span><span className="symbol_item"><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-0">20x</span></span></div></div></div>
@@ -104,9 +106,10 @@ const PositionTab = () =>{
                                              
                                             </div>
                                         </div>
-                                </div>
+                                 </div>
                                  <div className="td-dataTables"><div className="d-flex justify-content-start flex-row"><ModalTPSL/></div></div>
-                            </div>
+                           
+                                </div>
 
                              <div className="tr-dataTables tdGreen">
                                  <div className="td-dataTables line_tag"><div className="d-flex align-items-start justify-content-start symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-0">Perp</span></span><span className="symbol_item"><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-0">20x</span><span class="badge-green light badge badge-xs badgexs_title mx-1 border-radius-0">Long</span></span></div></div></div>
@@ -182,9 +185,9 @@ const PositionTab = () =>{
                                  <div className="td-dataTables"><div className="d-flex justify-content-start flex-row"><ModalTPSL/></div></div>
                             </div>
                                                        
-                        </tbody>
+                        </div>
                     </div>
-                    <div className="d-sm-flex text-center justify-content-between align-items-center mt-3 mb-3">
+                    {/* <div className="d-sm-flex text-center justify-content-between align-items-center mt-3 mb-3">
                         <div className="dataTables_info">
                             Showing {activePag.current * sort + 1} to{" "}
                             {data.length > (activePag.current + 1) * sort
@@ -232,7 +235,7 @@ const PositionTab = () =>{
                                 <i className="fa fa-angle-double-right" ></i>
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>                                                
             </div>
            
