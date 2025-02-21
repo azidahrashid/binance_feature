@@ -28,7 +28,7 @@ const ModalMargin = () => {
             <div className="descriptionContainer">
                 <div className="description_details mb-2">
                     <div class="wraplist_title mb-1">
-                            <p className="fw-bold text-keep fs-5 m-0">격리마진</p>
+                            <p className="fw-bold text-keep fs-7 m-0">격리마진</p>
                         </div> 
                         <div className="wraplist_description">
                             <p className="m-0 text-keep"><span class="dot_symbol mx-1">•</span> 자신이 보유하고 있는 전체 자산과 관계없이 투자한 금액을 담보로 청산을 실행합니다.</p>
@@ -37,7 +37,7 @@ const ModalMargin = () => {
                 </div>
                 <div className="description_details mb-2">
                     <div class="wraplist_title mb-1">
-                            <p className="fw-bold text-keep fs-5 m-0">교차마진</p>
+                            <p className="fw-bold text-keep fs-7 m-0">교차마진</p>
                         </div> 
                         <div className="wraplist_description">
                             <p className="m-0 text-keep"><span class="dot_symbol mx-1">•</span> 자신이 투자한 금액과 상관없이 전체 자산을 담보로 청산을 실행합니다.</p>

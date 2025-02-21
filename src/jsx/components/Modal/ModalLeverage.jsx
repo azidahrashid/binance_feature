@@ -30,7 +30,7 @@ const ModalLeverage = () => {
           <div className="descriptionContainer">
               <div className="description_details mb-2">
                       <div class="wraplist_title mb-1">
-                          <p className="fw-bold text-keep fs-5 m-0">격리마진</p>
+                          <p className="fw-bold text-keep fs-7 m-0">격리마진</p>
                       </div> 
                      
                       <div className="wraplist_description">
