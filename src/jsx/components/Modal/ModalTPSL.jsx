@@ -62,7 +62,7 @@ const ModalTPSL = () => {
                                                 onFocus={() => handleInputFocus(`${inputId}-tp`)}
                                                 onBlur={handleInputBlur}
                                             />
-                                            <span className="btn-cur left-radius input-group-text fw-light">
+                                            <span className="btn-cur left-radius input-group-text fw-light textColored">
                                                 <DropDownUI
                                                     options={["Mark", "Last"]}
                                                     placeholder="Mark"
@@ -90,7 +90,7 @@ const ModalTPSL = () => {
                                                 onFocus={() => handleInputFocus(`${inputId}-sl`)}
                                                 onBlur={handleInputBlur}
                                             />
-                                            <span className="btn-cur left-radius input-group-text fw-light">
+                                            <span className="btn-cur left-radius input-group-text fw-light textColored">
                                                 <DropDownUI
                                                     options={["Mark", "Limit"]}
                                                     placeholder="Mark"
