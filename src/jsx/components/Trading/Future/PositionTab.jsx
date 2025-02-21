@@ -56,16 +56,16 @@ const PositionTab = () =>{
                     <div id="example" className="table display dataTable no-footer" style={{minWidth:"845px"}}>
                         <div className="thead-dataTables">
                              <div className="th-dataTables">
-                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center">코인종류</div></div></div>
-                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center">사이즈</div></div></div>
-                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center">진입가</div></div></div>
-                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center">현재가</div></div></div>
-                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center">청산가</div></div></div>
-                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center">마진율</div></div></div>
-                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center">증거금</div></div></div>
-                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center">미실현수익(수익률 %)</div></div></div>
-                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-closePosition flex items-center">포지션종료</div></div></div>
-                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center">TP/SL</div></div></div>
+                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center justify-content-center w-full">코인종류</div></div></div>
+                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center justify-content-center w-full">사이즈</div></div></div>
+                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center justify-content-center w-full">진입가</div></div></div>
+                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center justify-content-center w-full">현재가</div></div></div>
+                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center justify-content-center w-full">청산가</div></div></div>
+                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center justify-content-center w-full">마진율</div></div></div>
+                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center justify-content-center w-full">증거금</div></div></div>
+                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center justify-content-center w-full">미실현수익(수익률 %)</div></div></div>
+                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-closePosition flex items-center justify-content-center w-full">포지션종료</div></div></div>
+                                 <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText flex items-center justify-content-center w-full">TP/SL</div></div></div>
                             </div>
                         </div>
                         <div className="tbody-dataTables">
