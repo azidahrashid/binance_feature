@@ -2455,7 +2455,7 @@ border-color:var(--color-PrimaryYellow)
     }
 }
 
-@media only screen and (max-width:1920px) {
+@media only screen and (max-width:1750px) {
 .tr-dataTables .td_closePositionWrap > .wr_closePositionWrap {
     flex-wrap: wrap !important;
 }
