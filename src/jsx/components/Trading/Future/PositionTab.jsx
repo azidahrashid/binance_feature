@@ -80,10 +80,10 @@ const PositionTab = () =>{
                                  <div className="td-dataTables table-w-2"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="margin_item text-margin">0.48 USDT</div><div className="d-flex"><span className="margin_item text-margin"> (Cross) </span></div></div></div>
                                  <div className="td-dataTables table-w-2"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="PNLROI_item text-PNLROI-plus">+0.01 USDT</div><div className="d-flex"><span className="PNLROI_item text-PNLROI"> (<Plus size={12} />3.39%) </span></div></div></div>
                                  <div className="td-dataTables table-w-3 td_closePositionWrap">
-                                    <div className="d-flex justify-content-center flex-fill flex-row"><div className="closePositionWrap d-flex justify-content-center flex-fill flex-row">
+                                    <div className="d-flex justify-content-center flex-fill flex-row wr_closePositionWrap"><div className="closePositionWrap d-flex justify-content-center flex-fill flex-row">
                                         <span className="text-closePositionMarket text-closePosition">Market</span><span className="text-borderline mx-2">|</span>
                                         <span className="text-closePositionLimit text-black"> Limit </span></div>
-                                        <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row closePosition_editCol mx-5">
+                                        <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row closePosition_editCol mx-3">
                                                <DropType 
                                                         currentValue="2.5336"
                                                         options={["10%", "25%", "50%", "75%", "100%"]}
@@ -120,8 +120,8 @@ const PositionTab = () =>{
                                  <div className="td-dataTables table-w-1"><div className="d-flex align-items-center justify-content-center flex-fill "><span className="text-black MarginRatio_item">0.10%</span></div></div>
                                  <div className="td-dataTables table-w-2"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="margin_item text-margin">0.48 USDT</div><div className="d-flex"><span className="margin_item text-margin"> (Cross) </span></div></div></div>
                                  <div className="td-dataTables table-w-2"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="PNLROI_item text-PNLROI-plus"><Plus size={12} />0.01 USDT</div><div className="d-flex"><span className="PNLROI_item text-PNLROI"> (<Plus size={12} />3.39%) </span></div></div></div>
-                                 <div className="td-dataTables table-w-3 td_closePositionWrap"><div className="d-flex justify-content-center flex-fill flex-row"><div className="closePositionWrap d-flex justify-content-center flex-fill flex-row"><span className="text-closePositionMarket text-closePosition">Market</span><span className="text-borderline mx-2">|</span><span className="text-closePositionLimit text-black"> Limit </span></div>
-                                        <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row closePosition_editCol mx-5">
+                                 <div className="td-dataTables table-w-3 td_closePositionWrap"><div className="d-flex justify-content-center flex-fill flex-row wr_closePositionWrap"><div className="closePositionWrap d-flex justify-content-center flex-fill flex-row"><span className="text-closePositionMarket text-closePosition">Market</span><span className="text-borderline mx-2">|</span><span className="text-closePositionLimit text-black"> Limit </span></div>
+                                        <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row closePosition_editCol mx-3">
                                                <DropType 
                                                         currentValue="2.5336"
                                                         options={["10%", "25%", "50%", "75%", "100%"]}
@@ -157,8 +157,8 @@ const PositionTab = () =>{
                                  <div className="td-dataTables table-w-1"><div className="d-flex align-items-center justify-content-center flex-fill "><span className="text-black MarginRatio_item">0.10%</span></div></div>
                                  <div className="td-dataTables table-w-2"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="margin_item text-margin">0.48 USDT</div><div className="d-flex"><span className="margin_item text-margin"> (Cross) </span></div></div></div>
                                  <div className="td-dataTables table-w-2"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="PNLROI_item text-PNLROI-minus"><Minus size={12} />0.01 USDT</div><div className="d-flex"><span className="PNLROI_item text-PNLROI"> (<Plus size={12} />3.39%) </span></div></div></div>
-                                 <div className="td-dataTables table-w-3 td_closePositionWrap"><div className="d-flex justify-content-center flex-fill flex-row"><div className="closePositionWrap d-flex justify-content-center flex-fill flex-row"><span className="text-closePositionMarket text-closePosition">Market</span><span className="text-borderline mx-2">|</span><span className="text-closePositionLimit text-black"> Limit </span></div>
-                                        <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row closePosition_editCol mx-5">
+                                 <div className="td-dataTables table-w-3 td_closePositionWrap"><div className="d-flex justify-content-center flex-fill flex-row wr_closePositionWrap"><div className="closePositionWrap d-flex justify-content-center flex-fill flex-row"><span className="text-closePositionMarket text-closePosition">Market</span><span className="text-borderline mx-2">|</span><span className="text-closePositionLimit text-black"> Limit </span></div>
+                                        <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row closePosition_editCol mx-3">
                                                <DropType 
                                                         currentValue="2.5336"
                                                         options={["10%", "25%", "50%", "75%", "100%"]}

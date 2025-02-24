@@ -2454,6 +2454,14 @@ border-color:var(--color-PrimaryYellow)
         overflow: auto;
     }
 }
+
+@media only screen and (max-width:1920px) {
+.tr-dataTables .td_closePositionWrap > .wr_closePositionWrap {
+    flex-wrap: wrap !important;
+}
+}
+
+
 @media only screen and (min-width:2000px) {
     .future_main_section, .future_orderbook_section, .future_trade_section {
         max-height: unset;
