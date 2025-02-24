@@ -55,7 +55,7 @@ const OpenOrdersTab = () =>{
      
             <div className="table-responsive dataTabletrade " >
                 <div id="futureorder_wrapper" className="dataTables_wrapper no-footer position_dataTables">
-                    <div className="filteringContainer d-flex justify-content-center flex-fill align-items-center flex-row gap-2">
+                    <div className="filteringContainer d-flex justify-content-center align-items-center flex-row gap-2">
                         <div className="d-flex justify-content-center flex-fill align-items-center flex-row gap-2">
                             <div 
                                 className={`sort_day c-pointer btn btn-sorttype btn-xxs border-0 typography-caption0  ${active === "day" ? "active" : ""}`}
