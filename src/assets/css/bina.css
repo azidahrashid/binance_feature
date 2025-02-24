@@ -3817,7 +3817,8 @@ left: 0;
 
 
 .position_dataTables .table tr {position:relative;}
-.dataTabletrade .dataTables_wrapper .dataTable tbody tr.tdGreen .line_tag:after {
+.dataTabletrade .dataTables_wrapper .dataTable tbody tr.tdGreen .line_tag:after ,
+.dataTabletrade .dataTables_wrapper .dataTable .tbody-dataTables .tr-dataTables.tdGreen .line_tag:after {
     content: "";
     position: absolute;
     width: 2px;
@@ -3828,7 +3829,7 @@ left: 0;
     background: #2ebd85;
 }
 
-.dataTabletrade .dataTables_wrapper .dataTable tbody tr.tdRed .line_tag:after {
+.dataTabletrade .dataTables_wrapper .dataTable .tbody-dataTables .tr-dataTables.tdRed .line_tag:after {
     content: "";
     position: absolute;
     width: 2px;
