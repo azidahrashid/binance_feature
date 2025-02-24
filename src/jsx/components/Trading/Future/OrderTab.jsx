@@ -56,7 +56,7 @@ const OpenOrdersTab = () =>{
             <div className="table-responsive dataTabletrade " >
                 <div id="futureorder_wrapper" className="dataTables_wrapper no-footer position_dataTables">
                     <div className="filteringContainer d-flex justify-content-center align-items-center flex-row gap-2">
-                        <div className="d-flex justify-content-center flex-fill align-items-center flex-row gap-2">
+                        <div className="d-flex justify-content-center align-items-center flex-row gap-2">
                             <div 
                                 className={`sort_day c-pointer btn btn-sorttype btn-xxs border-0 typography-caption0  ${active === "day" ? "active" : ""}`}
                                 onClick={() => setActive("day")}
@@ -77,13 +77,33 @@ const OpenOrdersTab = () =>{
                             </div>
                         </div>
                         <div className="border-start h-3 border-Line"></div>
-                        <div className="d-flex justify-content-center flex-fill align-items-center flex-row gap-2">
-                            <div className="sort_date typography-caption0 d-flex justify-content-center flex-fill align-items-center flex-row gap-1">
+                        <div className="d-flex justify-content-center  align-items-center flex-row gap-2">
+                            <div className="sort_date typography-caption0 d-flex justify-content-center  align-items-center flex-row gap-1">
                             <DateRangePicker
                                 initialSettings={{ 
                                     startDate: moment().format('MM/DD/YYYY'), 
                                     endDate: moment().format('MM/DD/YYYY'), 
                                     locale: { format: 'MM/DD/YYYY' }, 
+                                    applyLabel: "적용",
+                                    cancelLabel: "취소",
+                                    fromLabel: "부터",
+                                    toLabel: "까지",
+                                    customRangeLabel: "사용자 지정 범위",
+                                    daysOfWeek: ["일", "월", "화", "수", "목", "금", "토"],
+                                    monthNames: [
+                                    "1월",
+                                    "2월",
+                                    "3월",
+                                    "4월",
+                                    "5월",
+                                    "6월",
+                                    "7월",
+                                    "8월",
+                                    "9월",
+                                    "10월",
+                                    "11월",
+                                    "12월",
+                                    ],
                                     autoApply: false
                                 }}
                             >
