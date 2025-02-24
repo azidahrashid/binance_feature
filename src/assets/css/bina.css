@@ -2511,6 +2511,9 @@ border-color:var(--color-PrimaryYellow)
         font-weight: 500;
         line-height: 24px
     }
+    .closePosition_editCol .dropdown .dropdown-menu {
+        white-space: nowrap;
+    }
 }
 
 .bn-select-field.data-size-small {
