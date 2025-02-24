@@ -77,8 +77,8 @@ const PositionTab = () =>{
                                  <div className="td-dataTables"><div className="d-flex align-items-center justify-content-center flex-fill "><span className="text-black MarkPrice_item">2.35366</span></div></div>
                                  <div className="td-dataTables"><div className="d-flex align-items-center justify-content-center flex-fill "><span className="text-mark-price LiqPrice_item">1.2345</span></div></div>
                                  <div className="td-dataTables"><div className="d-flex align-items-center justify-content-center flex-fill "><span className="text-black MarginRatio_item">0.10%</span></div></div>
-                                 <div className="td-dataTables"><div className="d-flex justify-content-center flex-fill flex-column"><div className="margin_item text-margin">0.48 USDT</div><div className="d-flex"><span className="margin_item text-margin"> (Cross) </span></div></div></div>
-                                 <div className="td-dataTables"><div className="d-flex justify-content-center flex-fill flex-column"><div className="PNLROI_item text-PNLROI-plus">+0.01 USDT</div><div className="d-flex"><span className="PNLROI_item text-PNLROI"> (<Plus size={12} />3.39%) </span></div></div></div>
+                                 <div className="td-dataTables"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="margin_item text-margin">0.48 USDT</div><div className="d-flex"><span className="margin_item text-margin"> (Cross) </span></div></div></div>
+                                 <div className="td-dataTables"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="PNLROI_item text-PNLROI-plus">+0.01 USDT</div><div className="d-flex"><span className="PNLROI_item text-PNLROI"> (<Plus size={12} />3.39%) </span></div></div></div>
                                  <div className="td-dataTables td_closePositionWrap">
                                     <div className="d-flex justify-content-center flex-fill flex-row"><div className="closePositionWrap d-flex justify-content-center flex-fill flex-row">
                                         <span className="text-closePositionMarket text-closePosition">Market</span><span className="text-borderline mx-2">|</span>
@@ -118,8 +118,8 @@ const PositionTab = () =>{
                                  <div className="td-dataTables"><div className="d-flex align-items-center justify-content-center flex-fill "><span className="text-black MarkPrice_item">2.35366</span></div></div>
                                  <div className="td-dataTables"><div className="d-flex align-items-center justify-content-center flex-fill "><span className="text-mark-price LiqPrice_item">1.2345</span></div></div>
                                  <div className="td-dataTables"><div className="d-flex align-items-center justify-content-center flex-fill "><span className="text-black MarginRatio_item">0.10%</span></div></div>
-                                 <div className="td-dataTables"><div className="d-flex justify-content-center flex-fill flex-column"><div className="margin_item text-margin">0.48 USDT</div><div className="d-flex"><span className="margin_item text-margin"> (Cross) </span></div></div></div>
-                                 <div className="td-dataTables"><div className="d-flex justify-content-center flex-fill flex-column"><div className="PNLROI_item text-PNLROI-plus"><Plus size={12} />0.01 USDT</div><div className="d-flex"><span className="PNLROI_item text-PNLROI"> (<Plus size={12} />3.39%) </span></div></div></div>
+                                 <div className="td-dataTables"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="margin_item text-margin">0.48 USDT</div><div className="d-flex"><span className="margin_item text-margin"> (Cross) </span></div></div></div>
+                                 <div className="td-dataTables"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="PNLROI_item text-PNLROI-plus"><Plus size={12} />0.01 USDT</div><div className="d-flex"><span className="PNLROI_item text-PNLROI"> (<Plus size={12} />3.39%) </span></div></div></div>
                                  <div className="td-dataTables td_closePositionWrap"><div className="d-flex justify-content-center flex-fill flex-row"><div className="closePositionWrap d-flex justify-content-center flex-fill flex-row"><span className="text-closePositionMarket text-closePosition">Market</span><span className="text-borderline mx-2">|</span><span className="text-closePositionLimit text-black"> Limit </span></div>
                                         <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row closePosition_editCol mx-5">
                                                <DropType 
@@ -155,8 +155,8 @@ const PositionTab = () =>{
                                  <div className="td-dataTables"><div className="d-flex align-items-center justify-content-center flex-fill "><span className="text-black MarkPrice_item">2.35366</span></div></div>
                                  <div className="td-dataTables"><div className="d-flex align-items-center justify-content-center flex-fill "><span className="text-mark-price LiqPrice_item">1.2345</span></div></div>
                                  <div className="td-dataTables"><div className="d-flex align-items-center justify-content-center flex-fill "><span className="text-black MarginRatio_item">0.10%</span></div></div>
-                                 <div className="td-dataTables"><div className="d-flex justify-content-center flex-fill flex-column"><div className="margin_item text-margin">0.48 USDT</div><div className="d-flex"><span className="margin_item text-margin"> (Cross) </span></div></div></div>
-                                 <div className="td-dataTables"><div className="d-flex justify-content-center flex-fill flex-column"><div className="PNLROI_item text-PNLROI-minus"><Minus size={12} />0.01 USDT</div><div className="d-flex"><span className="PNLROI_item text-PNLROI"> (<Plus size={12} />3.39%) </span></div></div></div>
+                                 <div className="td-dataTables"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="margin_item text-margin">0.48 USDT</div><div className="d-flex"><span className="margin_item text-margin"> (Cross) </span></div></div></div>
+                                 <div className="td-dataTables"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="PNLROI_item text-PNLROI-minus"><Minus size={12} />0.01 USDT</div><div className="d-flex"><span className="PNLROI_item text-PNLROI"> (<Plus size={12} />3.39%) </span></div></div></div>
                                  <div className="td-dataTables td_closePositionWrap"><div className="d-flex justify-content-center flex-fill flex-row"><div className="closePositionWrap d-flex justify-content-center flex-fill flex-row"><span className="text-closePositionMarket text-closePosition">Market</span><span className="text-borderline mx-2">|</span><span className="text-closePositionLimit text-black"> Limit </span></div>
                                         <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row closePosition_editCol mx-5">
                                                <DropType 
@@ -187,7 +187,7 @@ const PositionTab = () =>{
                                                        
                         </div>
                     </div>
-                    {/* <div className="d-sm-flex text-center justify-content-between align-items-center mt-3 mb-3">
+                    {/* <div className="d-sm-flex text-center justify-content-center flex-fill align-items-center mt-3 mb-3">
                         <div className="dataTables_info">
                             Showing {activePag.current * sort + 1} to{" "}
                             {data.length > (activePag.current + 1) * sort
