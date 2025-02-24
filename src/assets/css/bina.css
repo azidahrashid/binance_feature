@@ -4386,21 +4386,23 @@ left: 0;
 
 .tr-dataTables {
     display: flex;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid transparent;
 }
 
 .td-dataTables {
     flex: 1;
     padding: 10px;
     text-align: left;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid transparent;
     display: flex;
     align-items: center;
+    font-size: 12px;
 }
 
 .tr-dataTables:last-child {
     border-bottom: none;
 }
+
 
 
 /* Width Utility Classes */
