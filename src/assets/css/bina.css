@@ -2454,7 +2454,7 @@ border-color:var(--color-PrimaryYellow)
         overflow: auto;
     }
 }
-@media only screen and (max-width:1920px) {
+@media only screen and (max-width:1950px) {
     
     .amountTot_wrap , .tradeDetails , .tickOption1{
         font-size: 12px;
