@@ -4469,3 +4469,11 @@ left: 0;
 .border-radius-5 {
     border-radius: 5px;
 }
+
+
+[data-theme-version=dark] .tr-dataTables:hover {
+    background-color: #202227;
+}
+[data-theme-version=light] .tr-dataTables:hover {
+    background-color: #f2f2f2;
+}
