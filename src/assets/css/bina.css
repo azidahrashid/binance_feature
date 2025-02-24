@@ -557,7 +557,7 @@ border-color:var(--color-PrimaryYellow)
 .text-BuyHover {
     color: var(--color-BuyHover)
 }
-.text-closePosition , .text-borderline {color:var(--color-textBrand)}
+.text-closePosition {color:var(--color-textBrand)}
 .text-DisableText {
     color: var(--color-DisableText)
 }
@@ -4371,8 +4371,8 @@ left: 0;
 }
 
 .th-dataTables {
-    flex: 1;
-    padding: 10px;
+    flex: auto;
+    padding: 10px 0;
     text-align: left;
     /* border-right: 1px solid #ddd; */
     display: flex;
