@@ -55,7 +55,7 @@ const PositionTab = () =>{
                 <div id="futurePosition_wrapper" className="dataTables_wrapper no-footer position_dataTables">
                     <div id="example" className="table display dataTable no-footer" style={{minWidth:"845px"}}>
                         <div className="thead-dataTables">
-                             <div className="th-dataTables">
+                             <div className="th-dataTable th-dataTables_tr">
                                  <div className="th-dataTables table-w-1"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText d-flex items-center justify-content-center w-full">코인종류</div></div></div>
                                  <div className="th-dataTables table-w-1"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText d-flex items-center justify-content-center w-full">사이즈</div></div></div>
                                  <div className="th-dataTables"><div className="d-flex align-items-center "><div className=" typography-caption2 text-TertiaryText d-flex items-center justify-content-center w-full">진입가</div></div></div>
