@@ -76,9 +76,9 @@ const PositionHistoryTab = () =>{
                                 <div className="td-dataTables"><div className="td-dataTables d-flex  align-items-center justify-content-center flex-fill "><span className="text-black Executed_item">0.0000 USDT</span></div></div>
                                 <div className="td-dataTables"><div className="td-dataTables d-flex  align-items-center justify-content-center flex-fill "><span className="text-black AmountOrder_item">9.5310 USDT</span></div></div>
                                 <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill flex-row gap-1"><span className="badge tp-badge-success badge-lg"><Plus size={12} />12.34 USDT</span></div></div>
-                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-between gap-2 flex-row"><span className="badge tp-badge-success badge-lg"><Plus size={12} />12.34%</span></div></div>
-                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-between gap-2 flex-row">0.0047862 USDT</div></div>
-                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-between gap-2 flex-row"><span className="badge tp-badge-success badge-lg">채결</span></div></div>
+                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill  gap-2 flex-row"><span className="badge tp-badge-success badge-lg"><Plus size={12} />12.34%</span></div></div>
+                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill  gap-2 flex-row">0.0047862 USDT</div></div>
+                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill  gap-2 flex-row"><span className="badge tp-badge-success badge-lg">채결</span></div></div>
                             </div>
                             <div className="tr-dataTables">
                             <div className="td-dataTables"><div className="d-flex align-items-start justify-content-center flex-fill symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-5">Perp</span><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-5">20x</span><span class="badge-green badge badge-xs badgexs_title mx-1 border-radius-5">Long</span></span><span className="symbol_item"></span></div></div></div>
@@ -90,9 +90,9 @@ const PositionHistoryTab = () =>{
                                 <div className="td-dataTables"><div className="td-dataTables d-flex  align-items-center justify-content-center flex-fill "><span className="text-black AmountOrder_item">10.37535 USDT</span></div></div>
                                 <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill flex-row gap-1"><span className="badge tp-badge-success badge-lg"><Plus size={12} />12.34 USDT</span></div></div>
                                
-                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-between gap-2 flex-row"><span className="badge tp-badge-success badge-lg"><Plus size={12} />12.34%</span></div></div>
-                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-between gap-2 flex-row">0.0047862 USDT</div></div>
-                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-between gap-2 flex-row"><span className="badge tp-badge-cancel badge-lg">취소</span></div></div>
+                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill  gap-2 flex-row"><span className="badge tp-badge-success badge-lg"><Plus size={12} />12.34%</span></div></div>
+                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill  gap-2 flex-row">0.0047862 USDT</div></div>
+                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill  gap-2 flex-row"><span className="badge tp-badge-cancel badge-lg">취소</span></div></div>
                             </div>
                             <div className="tr-dataTables">
                                 <div className="td-dataTables"><div className="d-flex align-items-start justify-content-center flex-fill symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div></div></div>
@@ -103,9 +103,9 @@ const PositionHistoryTab = () =>{
                                 <div className="td-dataTables"><div className="td-dataTables d-flex  align-items-center justify-content-center flex-fill "><span className="text-black Executed_item">9.5659 USDT</span></div></div>
                                 <div className="td-dataTables"><div className="td-dataTables d-flex  align-items-center justify-content-center flex-fill "><span className="text-black AmountOrder_item">9.5713 USDT</span></div></div>
                                 <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill flex-row gap-1"><span className="badge tp-badge-danger badge-lg"><Minus size={12} />12.34 USDT</span></div></div>
-                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-between gap-2 flex-row"><span className="badge tp-badge-danger badge-lg"><Minus size={12} />12.34%</span></div></div>
-                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-between gap-2 flex-row">0.0047862 USDT</div></div>
-                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-between gap-2 flex-row"><span className="badge tp-badge-success badge-lg">채결</span></div></div>
+                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill  gap-2 flex-row"><span className="badge tp-badge-danger badge-lg"><Minus size={12} />12.34%</span></div></div>
+                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill  gap-2 flex-row">0.0047862 USDT</div></div>
+                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill  gap-2 flex-row"><span className="badge tp-badge-success badge-lg">채결</span></div></div>
                             </div>
                             <div className="tr-dataTables">
                                 <div className="td-dataTables"><div className="d-flex align-items-start justify-content-center flex-fill symbol_item_wrap flex-column"><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-5">Perp</span><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-5">20x</span><span class="badge-red badge badge-xs badgexs_title mx-1 border-radius-5">Short</span></span><span className="symbol_item"></span></div></div></div>
@@ -116,14 +116,14 @@ const PositionHistoryTab = () =>{
                                 <div className="td-dataTables"><div className="td-dataTables d-flex  align-items-center justify-content-center flex-fill "><span className="text-black Executed_item">0.0000 USDT</span></div></div>
                                 <div className="td-dataTables"><div className="td-dataTables d-flex  align-items-center justify-content-center flex-fill "><span className="text-black AmountOrder_item">9.5659 USDT</span></div></div>
                                 <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill flex-row gap-1"><span className="badge tp-badge-danger badge-lg"><Minus size={12} />12.34 USDT</span></div></div>
-                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-between gap-2 flex-row"><span className="badge tp-badge-danger badge-lg"><Minus size={12} />12.34%</span></div></div>
-                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-between gap-2 flex-row">0.0047862 USDT</div></div>
-                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-between gap-2 flex-row"><span className="badge tp-badge-success badge-lg">채결 </span></div></div>
+                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill  gap-2 flex-row"><span className="badge tp-badge-danger badge-lg"><Minus size={12} />12.34%</span></div></div>
+                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill  gap-2 flex-row">0.0047862 USDT</div></div>
+                                <div className="td-dataTables"><div className="td-dataTables d-flex  justify-content-center flex-fill  gap-2 flex-row"><span className="badge tp-badge-success badge-lg">채결 </span></div></div>
                             </div>   
                                                     
                         </div>
                     </div>
-                    {/* <div className="d-sm-flex text-center justify-content-between align-items-center mt-3 mb-3">
+                    {/* <div className="d-sm-flex text-center justify-content-center flex-fill  align-items-center mt-3 mb-3">
                         <div className="dataTables_info">
                             Showing {activePag.current * sort + 1} to{" "}
                             {data.length > (activePag.current + 1) * sort
