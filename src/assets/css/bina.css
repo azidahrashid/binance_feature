@@ -4392,7 +4392,7 @@ left: 0;
 }
 [data-theme-version=dark] .tr-dataTables{    border-color: #2b3139;}
 .td-dataTables {
-    flex: 1;
+    flex: auto;
     padding: 10px;
     text-align: left;
     border-right: 1px solid transparent;
