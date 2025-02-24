@@ -4388,7 +4388,7 @@ left: 0;
 .tr-dataTables {
     display: flex;
     border-bottom: 1px solid #ddd;
-    postion:relative;
+    position:relative;
 }
 [data-theme-version=dark] .tr-dataTables{    border-color: #2b3139;}
 .td-dataTables {
