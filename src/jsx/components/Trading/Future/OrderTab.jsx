@@ -107,7 +107,7 @@ const OpenOrdersTab = () =>{
                                 <div className="th-dataTables table-w-3"><div className="d-flex align-items-center justify-content-center flex-fill"><div className=" typography-caption2 text-TertiaryText flex items-center">채결가</div></div></div>
                                 <div className="th-dataTables table-w-3"><div className="d-flex align-items-center justify-content-center flex-fill"><div className=" typography-caption2 text-TertiaryText flex items-center">수량</div></div></div>
                                 <div className="th-dataTables table-w-3"><div className="d-flex align-items-center justify-content-center flex-fill"><div className=" typography-caption2 text-TertiaryText flex items-center">주문가격</div></div></div>
-                                <div className="th-dataTables" style={{width:'250px'}}"><div className="d-flex align-items-center justify-content-center flex-fill"><div className=" typography-caption2 text-TertiaryText flex items-center">상태</div></div></div>
+                                <div className="th-dataTables" style={{width:'250px'}}><div className="d-flex align-items-center justify-content-center flex-fill"><div className=" typography-caption2 text-TertiaryText flex items-center">상태</div></div></div>
                             </div>
                         </div>
                         <div className="tbody-dataTables">
