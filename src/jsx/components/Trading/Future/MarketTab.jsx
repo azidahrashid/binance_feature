@@ -59,7 +59,7 @@ const LimitTab = () => {
 
                     <FutureTradeRangeSlider />
 
-                    <div className="d-flex justify-content-between flex-wrap">
+                    <div className="d-flex justify-content-between flex-wrap amountTot_wrap">
                         <div className="d-flex">
                             <div className="text-muted">매수</div>
                             <div className="text-black px-1">0.00 {selectedCurrencies.main}</div>
@@ -70,7 +70,7 @@ const LimitTab = () => {
                         </div>
                     </div>
 
-                    <div className="d-flex justify-content-between flex-wrap">
+                    <div className="d-flex justify-content-between flex-wrap tickOption1">
                         <div style={{ maxHeight: "200px", overflowY: "auto" }}>
                             <div className="check-item-checkbox py-1">
                                 <label className="form-check-label d-flex align-items-center text-black fw-bold">

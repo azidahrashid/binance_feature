@@ -2454,7 +2454,20 @@ border-color:var(--color-PrimaryYellow)
         overflow: auto;
     }
 }
-
+@media only screen and (max-width:1920px) {
+    
+    .amountTot_wrap , .tradeDetails , .tickOption1{
+        font-size: 12px;
+    }
+    
+    .tickOption1 .check-item-checkbox label {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+        
+    }
+    
 @media only screen and (max-width:1750px) {
 .tr-dataTables .td_closePositionWrap > .wr_closePositionWrap {
     flex-wrap: wrap !important;
