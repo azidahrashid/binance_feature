@@ -82,9 +82,10 @@ const [test] = useState(0);
                                  <div className="td-dataTables table-w-2"><div className="d-flex justify-content-center flex-fill flex-column align-items-center xs-text-wrap"><span class="small text-muted xs-text-display">증거금</span><div className="margin_item text-margin">0.48 USDT</div><div className="d-flex"><span className="margin_item text-margin"> (Cross) </span></div></div></div>
                                  <div className="td-dataTables table-w-2"><div className="d-flex justify-content-center flex-fill flex-column align-items-center xs-text-wrap"><span class="small text-muted xs-text-display">미실현수익(수익률 %)</span><div className="PNLROI_item text-PNLROI-plus">+0.01 USDT</div><div className="d-flex"><span className="PNLROI_item text-PNLROI"> (<Plus size={12} />3.39%) </span></div></div></div>
                                  <div className="td-dataTables table-w-3 td_closePositionWrap">
-                                    <div className="d-flex justify-content-center flex-fill flex-row wr_closePositionWrap">
-                                        <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row xs-text-wrap">
+                                    <div className="d-flex justify-content-center flex-fill flex-row wr_closePositionWrap xs-text-wrap">
                                         <span class="small text-muted xs-text-display">포지션종료</span>
+                                        <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row ">
+                                        
                                         <span className="text-closePositionMarket text-closePosition">Market</span><span className="text-borderline mx-2">|</span>
                                         <span className="text-closePositionLimit text-black"> Limit </span></div>
                                         <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row closePosition_editCol mx-3">
