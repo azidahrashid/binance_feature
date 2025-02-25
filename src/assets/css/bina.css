@@ -4200,18 +4200,21 @@ left: 0;
       display: none;
     }
 
-    #futurePosition_wrapper .tbody-dataTables .tr-dataTables {
+    #futurePosition_wrapper .tbody-dataTables .tr-dataTables,
+    #futurePositionLog_wrapper .tbody-dataTables .tr-dataTables {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(2, 1fr); /* Creates 5 rows */
     }
     
     
-    #futurePosition_wrapper .tbody-dataTables .tr-dataTables .td-dataTables {
+    #futurePosition_wrapper .tbody-dataTables .tr-dataTables .td-dataTables ,
+    #futurePositionLog_wrapper  .tbody-dataTables .tr-dataTables .td-dataTables {
         width: 100%;
     }
     
-    #futurePosition_wrapper .tbody-dataTables .tr-dataTables .td-dataTables .xs-text-wrap {
+    #futurePosition_wrapper .tbody-dataTables .tr-dataTables .td-dataTables .xs-text-wrap ,
+    #futurePositionLog_wrapper .tbody-dataTables .tr-dataTables .td-dataTables .xs-text-wrap {
         flex-direction: column !important;
         gap: 2px;
         align-items: center;
@@ -4515,7 +4518,8 @@ left: 0;
 
   @media only screen and (max-width:870px) {
 
-    #futurePosition_wrapper .tbody-dataTables .tr-dataTables {
+    #futurePosition_wrapper .tbody-dataTables .tr-dataTables ,
+        #futurePositionLog_wrapper .tbody-dataTables .tr-dataTables {
         display: grid;
         grid-template-columns: repeat(4, auto);
         grid-template-rows: repeat(4, 1fr);
@@ -4526,7 +4530,8 @@ left: 0;
 
   
 @media only screen and (max-width:805px) {
-    #futurePosition_wrapper .tbody-dataTables .tr-dataTables {
+    #futurePosition_wrapper .tbody-dataTables .tr-dataTables ,
+        #futurePositionLog_wrapper .tbody-dataTables .tr-dataTables {
         display: grid;
         grid-template-columns: repeat(3, 28vw);
         grid-template-rows: repeat(3, 1fr);
@@ -4534,7 +4539,8 @@ left: 0;
 }
 
 @media only screen and (max-width:595px) {
-    #futurePosition_wrapper .tbody-dataTables .tr-dataTables {
+    #futurePosition_wrapper .tbody-dataTables .tr-dataTables ,
+        #futurePositionLog_wrapper .tbody-dataTables .tr-dataTables {
         display: grid;
         grid-template-columns: repeat(2, 45vw);
         grid-template-rows: repeat(5, 1fr);
