@@ -4523,8 +4523,7 @@ left: 0;
   
 @media only screen and (max-width:805px) {
     #futurePosition_wrapper .tbody-dataTables .tr-dataTables {
-        display: grid
-;
+        display: grid;
         grid-template-columns: repeat(3, 28vw);
         grid-template-rows: repeat(3, 1fr);
     }
