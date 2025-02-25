@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useRef } from 'react';
-import {Link} from 'react-router-dom'; 
+// import {Link} from 'react-router-dom'; 
 import {Plus, Minus} from "lucide-react" 
 
 
@@ -8,9 +8,10 @@ const PositionHistoryTab = () =>{
     const [data, setData] = useState(
         document.querySelectorAll("#futurePositionLog_wrapper tbody tr")
     );
-    const sort = 6;
-    const activePag = useRef(0);
-    const [test, settest] = useState(0);
+    // const sort = 6;
+    // const activePag = useRef(0);
+    // const [test, settest] = useState(0);
+    const [test] = useState(0);
 
     // Active data
     const chageData = (frist, sec) => {

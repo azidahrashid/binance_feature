@@ -4047,7 +4047,7 @@ left: 0;
     }
     .future_trade_section.fixed-tradebar.open .card > .card-body {
         overflow: auto;
-        height: 85vh;
+        max-height: 85vh;
     }
     
 }
@@ -4076,6 +4076,17 @@ left: 0;
     .list-wrapper .t-headline1 {
         flex-direction: column;
      
+    }
+}
+@media only screen and (min-width:1751px) {
+    .td-dataTables .xs-text-display {
+    display:none;
+   }
+}
+@media only screen and (max-width:1750px) {
+
+    .thead-dataTables {
+        display: none;
     }
 }
 

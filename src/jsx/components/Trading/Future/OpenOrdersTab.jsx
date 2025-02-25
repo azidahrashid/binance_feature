@@ -10,9 +10,11 @@ const OpenOrdersTab = () =>{
     const [data, setData] = useState(
         document.querySelectorAll("#futureOpenorder_wrapper tbody tr")
     );
-    const sort = 6;
-    const activePag = useRef(0);
-    const [test, settest] = useState(0);
+    // const sort = 6;
+    // const activePag = useRef(0);
+    // const [test, settest] = useState(0);
+const [test] = useState(0);
+
 
     // Active data
     const chageData = (frist, sec) => {

@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useRef } from 'react';
-import {Link} from 'react-router-dom'; 
+// import {Link} from 'react-router-dom'; 
 import DropType from "../../bootstrap/DropType";
 import ModalTPSL from "./../../Modal/ModalTPSL";
 import {Plus, Minus} from "lucide-react" 
@@ -11,9 +11,11 @@ const PositionTab = () =>{
     const [data, setData] = useState(
         document.querySelectorAll("#futurePosition_wrapper tbody tr")
     );
-    const sort = 6;
-    const activePag = useRef(0);
-    const [test, settest] = useState(0);
+    // const sort = 6;
+    // const activePag = useRef(0);
+    // const [test, settest] = useState(0);
+const [test] = useState(0);
+
 
     // Active data
     const chageData = (frist, sec) => {
@@ -71,16 +73,18 @@ const PositionTab = () =>{
                         <div className="tbody-dataTables">
                        
                               <div className="tr-dataTables tdGreen">
-                                 <div className="td-dataTables line_tag table-w-2"><div className="d-flex align-items-center justify-content-center flex-fill symbol_item_wrap flex-column"><span class="small text-muted xs-text-display">코인종류</span><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-5">Perp</span></span><span className="symbol_item"><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-5">20x</span></span></div></div></div>
-                                 <div className="td-dataTables table-w-2"><div className="d-flex align-items-center justify-content-center flex-fill size_item_wrap"><span class="small text-muted xs-text-display">사이즈</span><span className="text-size-trade size_item">9.6603 USDT</span></div></div>
-                                 <div className="td-dataTables table-w-2"><div className="d-flex align-items-center justify-content-center flex-fill "><span class="small text-muted xs-text-display">진입가</span><span className="text-black EntryPrice_item">2.35326</span></div></div>
-                                 <div className="td-dataTables table-w-2"><div className="d-flex align-items-center justify-content-center flex-fill "><span class="small text-muted xs-text-display">현재가</span><span className="text-black MarkPrice_item">2.35366</span></div></div>
-                                 <div className="td-dataTables table-w-1"><div className="d-flex align-items-center justify-content-center flex-fill "><span class="small text-muted xs-text-display">청산가</span><span className="text-mark-price LiqPrice_item">1.2345</span></div></div>
-                                 <div className="td-dataTables table-w-1"><div className="d-flex align-items-center justify-content-center flex-fill "><span class="small text-muted xs-text-display">마진율</span><span className="text-black MarginRatio_item">0.10%</span></div></div>
-                                 <div className="td-dataTables table-w-2"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="margin_item text-margin">0.48 USDT</div><div className="d-flex"><span className="margin_item text-margin"> (Cross) </span></div></div></div>
-                                 <div className="td-dataTables table-w-2"><div className="d-flex justify-content-center flex-fill flex-column align-items-center"><div className="PNLROI_item text-PNLROI-plus">+0.01 USDT</div><div className="d-flex"><span className="PNLROI_item text-PNLROI"> (<Plus size={12} />3.39%) </span></div></div></div>
+                                 <div className="td-dataTables line_tag table-w-2"><div className="d-flex align-items-center justify-content-center flex-fill symbol_item_wrap flex-column  xs-text-wrap"><span class="small text-muted xs-text-display">코인종류</span><div className="symbol_item">XRPUSDT</div><div className="d-flex align-items-center"><span className="symbol_item"><span class="badge-dark light badge badge-xs badgexs_title mx-1 border-radius-5">Perp</span></span><span className="symbol_item"><span class="badge-dark light  badge badge-xs badgexs_title mx-1 border-radius-5">20x</span></span></div></div></div>
+                                 <div className="td-dataTables table-w-2"><div className="d-flex align-items-center justify-content-center flex-fill size_item_wrap xs-text-wrap"><span class="small text-muted xs-text-display">사이즈</span><span className="text-size-trade size_item">9.6603 USDT</span></div></div>
+                                 <div className="td-dataTables table-w-2"><div className="d-flex align-items-center justify-content-center flex-fill xs-text-wrap"><span class="small text-muted xs-text-display">진입가</span><span className="text-black EntryPrice_item">2.35326</span></div></div>
+                                 <div className="td-dataTables table-w-2"><div className="d-flex align-items-center justify-content-center flex-fill xs-text-wrap"><span class="small text-muted xs-text-display">현재가</span><span className="text-black MarkPrice_item">2.35366</span></div></div>
+                                 <div className="td-dataTables table-w-1"><div className="d-flex align-items-center justify-content-center flex-fill xs-text-wrap"><span class="small text-muted xs-text-display">청산가</span><span className="text-mark-price LiqPrice_item">1.2345</span></div></div>
+                                 <div className="td-dataTables table-w-1"><div className="d-flex align-items-center justify-content-center flex-fill xs-text-wrap"><span class="small text-muted xs-text-display">마진율</span><span className="text-black MarginRatio_item">0.10%</span></div></div>
+                                 <div className="td-dataTables table-w-2"><div className="d-flex justify-content-center flex-fill flex-column align-items-center xs-text-wrap"><span class="small text-muted xs-text-display">증거금</span><div className="margin_item text-margin">0.48 USDT</div><div className="d-flex"><span className="margin_item text-margin"> (Cross) </span></div></div></div>
+                                 <div className="td-dataTables table-w-2"><div className="d-flex justify-content-center flex-fill flex-column align-items-center xs-text-wrap"><span class="small text-muted xs-text-display">미실현수익(수익률 %)</span><div className="PNLROI_item text-PNLROI-plus">+0.01 USDT</div><div className="d-flex"><span className="PNLROI_item text-PNLROI"> (<Plus size={12} />3.39%) </span></div></div></div>
                                  <div className="td-dataTables table-w-3 td_closePositionWrap">
-                                    <div className="d-flex justify-content-center flex-fill flex-row wr_closePositionWrap"><div className="closePositionWrap d-flex justify-content-center flex-fill flex-row">
+                                    <div className="d-flex justify-content-center flex-fill flex-row wr_closePositionWrap">
+                                        <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row xs-text-wrap">
+                                        <span class="small text-muted xs-text-display">포지션종료</span>
                                         <span className="text-closePositionMarket text-closePosition">Market</span><span className="text-borderline mx-2">|</span>
                                         <span className="text-closePositionLimit text-black"> Limit </span></div>
                                         <div className="closePositionWrap d-flex justify-content-center flex-fill flex-row closePosition_editCol mx-3">
@@ -107,7 +111,7 @@ const PositionTab = () =>{
                                             </div>
                                         </div>
                                  </div>
-                                 <div className="td-dataTables table-w-1"><div className="d-flex justify-content-center flex-fill flex-row"><ModalTPSL/></div></div>
+                                 <div className="td-dataTables table-w-1"><div className="d-flex justify-content-center flex-fill flex-row xs-text-wrap"><span class="small text-muted xs-text-display">TP/SL</span><ModalTPSL/></div></div>
                            
                                 </div>
 
