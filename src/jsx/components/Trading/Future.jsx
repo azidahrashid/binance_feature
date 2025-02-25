@@ -147,8 +147,8 @@ const Future = () =>{
                     <button className="tradebar-toggle-btn mx-1" onClick={() => settradebarOpen(!istradebarOpen)}>
                         {istradebarOpen ? "" : ""} 
                         <div className=" d-flex justify-content-between gap-2" >
-                            <a className="btn btn-success py-3 text-uppercase flex-grow-1" href="#/">매수</a>
-                            <a className="btn btn-danger py-3 text-uppercase flex-grow-1" href="#/">매도</a>
+                            <a className="btn btn-success py-1 text-uppercase flex-grow-1" href="#/">매수/Long</a>
+                            <a className="btn btn-danger py-1 text-uppercase flex-grow-1" href="#/">매도/Short</a>
                         </div>
                     </button>
                     

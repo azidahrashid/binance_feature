@@ -3999,11 +3999,11 @@ left: 0;
 
 @media only screen and (min-width: 800px) and  (max-width: 949px) {
     .future_main_section {
-        width: 60%;
+        width: 100%;
     }
     
     .future_orderbook_section {
-        width: 40%;
+       display: none;
     }
     [data-sidebar-style=mini] .content-body {
         margin-left: 0rem;
@@ -4044,6 +4044,10 @@ left: 0;
         left: 0;
         width: 100%;
         box-shadow: -1px 0 10px #000000;
+    }
+    .future_trade_section.fixed-tradebar.open .card > .card-body {
+        overflow: auto;
+        height: 85vh;
     }
     
 }
@@ -4340,7 +4344,9 @@ left: 0;
 .input-group .textColored .text-black {
     color: #ffcc00 !important;
 }
-
+[data-theme-version=light][data-primary=color_2] .input-group .textColored .text-black {
+    color: #d8ad00 !important;
+}
 [data-theme-version=dark][data-primary=color_2] .textColored:hover ,
 [data-theme-version=light][data-primary=color_2] .textColored:hover {
     border: 1px solid #ffcc00 !important;
