@@ -3469,7 +3469,9 @@ left: 0;
 [data-theme-version=dark][data-primary=color_2] .btn-sorttype:hover ,[data-theme-version=dark][data-primary=color_2] .order.nav-tabs .nav-link:hover {color:#fff;}
 [data-theme-version=light][data-primary=color_2] .btn-sorttype:hover ,  [data-theme-version=light][data-primary=color_2] .order.nav-tabs .nav-link:hover {color:#000000;}
 
-
+.btn-sorttype {
+    word-break: keep-all; 
+}
 .table-btn-more, .table-btn-search , .btn-sorttype.active {
     background-color: #2B3139;
     border-color: #2B3139;
