@@ -3478,13 +3478,14 @@ left: 0;
     background-color: var(--color-DisableBtn);
     color: var(--color-PrimaryText);
     border-color: var(--color-DisableBtn);
+    word-break: keep-all;
 }
 .table-btn-more {
     line-height: normal;
     padding: 0;
 }
 .table-btn-more svg {height: 18px;}
-.dataTables_wrapper .sort_date input[type=text]{color: inherit;}
+.dataTables_wrapper .sort_date input[type=text]{color: inherit;min-width: 155px;}
 
 .badge-green {
     background: #2ebd85;
