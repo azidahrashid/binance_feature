@@ -4611,3 +4611,9 @@ left: 0;
       width: 90%;
     }
   }
+
+
+
+  .brand-logo {
+    display: none !important;
+}
