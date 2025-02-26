@@ -4228,10 +4228,12 @@ left: 0;
 
     #futureOpenorder_wrapper .tbody-dataTables .tr-dataTables {
         display: grid ;
-        grid-template-columns: repeat(3, 28vw);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 32vw);
+        grid-template-rows: repeat(2, 1fr);
     }
-
+    #futureOpenorder_wrapper .tbody-dataTables .tr-dataTables .td-dataTables {
+        width: 100% !important;!i;!;!;
+    }
 
 
   }
