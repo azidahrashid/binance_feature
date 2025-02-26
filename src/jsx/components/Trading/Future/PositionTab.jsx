@@ -55,7 +55,7 @@ const [test] = useState(0);
      
             <div className="table-responsive dataTabletrade " >
                 <div id="futurePosition_wrapper" className="dataTables_wrapper no-footer position_dataTables">
-                    <div id="example" className="table display dataTable no-footer" style={{minWidth:"845px"}}>
+                    <div id="example" className="table display dataTable no-footer">
                         <div className="thead-dataTables">
                              <div className="th-dataTables th-dataTables_tr">
                                  <div className="th-dataTables table-w-2"><div className="d-flex align-items-center justify-content-center flex-fill"><div className=" typography-caption2 text-TertiaryText d-flex items-center justify-content-center w-full">코인종류</div></div></div>

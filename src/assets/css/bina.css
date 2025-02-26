@@ -4237,6 +4237,13 @@ left: 0;
 
 
   }
+  @media only screen and (max-width: 880px) {
+    #futureOpenorder_wrapper .tbody-dataTables .tr-dataTables {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
   @media only screen and (max-width: 100rem) {
     .header {
       padding-right: 90px;

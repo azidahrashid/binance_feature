@@ -51,7 +51,7 @@ const PositionHistoryTab = () =>{
      
             <div className="table-responsive dataTabletrade " >
                 <div id="futurePositionLog_wrapper" className="dataTables_wrapper no-footer position_dataTables">                   
-                    <div id="example" className="table display dataTable no-footer" style={{minWidth:"845px"}}>
+                    <div id="example" className="table display dataTable no-footer" >
                         <div className="thead-dataTables">
                             <div className="th-dataTables th-dataTables_tr">
                                 <div className="th-dataTables table-w-2"><div className="d-flex align-items-center justify-content-center flex-fill"><div className=" typography-caption2 text-TertiaryText flex items-center">코인종류</div></div></div>
