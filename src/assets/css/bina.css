@@ -4599,6 +4599,13 @@ left: 0;
     .login-card {
       width: 80%;
     }
+    .filteringContainer {
+        flex-direction: column !important;
+        gap: 0px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #84848421;
+    }
   }
 
 
