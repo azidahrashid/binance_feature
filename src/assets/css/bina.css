@@ -3995,10 +3995,14 @@ left: 0;
       font-weight: 500;
       line-height: 14px;
     }
+
     .typography-caption0 {
         padding: 5px 12px;
+        
         line-height: 12px;
     }
+
+    
     .\!typography-caption1 {
       font-size: 12px !important;
       font-weight: 400 !important;
