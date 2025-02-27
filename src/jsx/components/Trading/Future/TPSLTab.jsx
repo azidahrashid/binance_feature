@@ -43,8 +43,8 @@ const TPSLTab = () => {
                                 />
                                 <span className="btn-cur left-radius input-group-text fw-light  border-start-0 textColored">
                                     <DropDownUI
-                                        options={["Mark", "Last"]}
-                                        placeholder="Mark"
+                                        options={["시장가", "현재가"]}
+                                        placeholder="시장가"
                                         onValueChange={handleDropdownChange}
                                     />
                                  </span>
@@ -67,8 +67,8 @@ const TPSLTab = () => {
                                 />
                                 <span className="btn-cur left-radius input-group-text fw-light  border-start-0 textColored">
                                     <DropDownUI
-                                        options={["Mark", "Limit"]}
-                                        placeholder="Mark"
+                                        options={["시장가", "Limit"]}
+                                        placeholder="시장가"
                                         onValueChange={handleDropdownChange}
                                     />
                                  </span>
@@ -98,10 +98,10 @@ const TPSLTab = () => {
 
                     <div className="mt-3 d-flex justify-content-between gap-2">
                         <Link to={"#"} className="btn btn-success py-2 text-uppercase flex-grow-1">
-                             매수
+                             확인
                         </Link>
                         <Link to={"#"} className="btn btn-danger py-2 text-uppercase flex-grow-1">
-                             매도
+                             취소
                         </Link>
                     </div>
                 </form>

@@ -64,8 +64,8 @@ const ModalTPSL = () => {
                                             />
                                             <span className="btn-cur left-radius input-group-text fw-light textColored">
                                                 <DropDownUI
-                                                    options={["Mark", "Last"]}
-                                                    placeholder="Mark"
+                                                    options={["시장가", "현재가"]}
+                                                    placeholder="시장가"
                                                     onValueChange={handleDropdownChange}
                                                 />
                                             </span>
